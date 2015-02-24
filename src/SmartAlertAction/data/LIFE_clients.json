@@ -1,0 +1,142 @@
+ [
+ {
+  "initial": "A",
+  "clients": [
+              {
+              "id": 15,
+              "fName": "Peter",
+              "lName": "Arterburn",
+              "displayName": "Peter Arterburn",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "D",
+  "clients": [
+              {
+              "id": 17,
+              "fName": "Rob",
+              "lName": "Dorn",
+              "displayName": "Rob Dorn",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "E",
+  "clients": [
+              {
+              "id": 18,
+              "fName": "Kaan",
+              "lName": "Ersan",
+              "displayName": "Kaan Ersan",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "I",
+  "clients": [
+              {
+              "id": 16,
+              "fName": "Sujin",
+              "lName": "Im",
+              "displayName": "Sujin Im",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "F",
+  "clients": [
+              {
+              "id": 8,
+              "fName": "Brian",
+              "lName": "Fisk",
+              "displayName": "Brian Fisk",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "L",
+  "clients": [
+              {
+              "id": 11,
+              "fName": "Helena",
+              "lName": "Liu",
+              "displayName": "Helena Liu",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "M",
+  "clients": [
+              {
+              "id": 0,
+              "fName": "Jenny",
+              "lName": "Muller",
+              "displayName": "Jenny Muller",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "R",
+  "clients": [
+              {
+              "id": 13,
+              "fName": "Sam",
+              "lName": "Rahimi",
+              "displayName": "Sam Rahimi",
+              "settings": {
+              "showAlert": false
+              }
+              }
+              ]
+  },
+  {
+  "initial": "S",
+  "clients": [
+              {
+              "id": 12,
+              "fName": "Chris",
+              "lName": "Scott",
+              "displayName": "Chris Scott",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "V",
+  "clients": [
+              {
+              "id": 14,
+              "fName": "Penny",
+              "lName": "Vrabec",
+              "displayName": "Penny Vrabec",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  }
+  ]

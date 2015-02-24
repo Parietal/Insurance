@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="i9y-iA-rku">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Preview-->
+        <scene sceneID="mpJ-PG-r9h">
+            <objects>
+                <viewController storyboardIdentifier="AddPhotosVC" id="i9y-iA-rku" customClass="AddPhotosConfirmVC" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mHu-Gp-Cbt"/>
+                        <viewControllerLayoutGuide type="bottom" id="AMk-p0-Su7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aHT-LC-Qtm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qcc-y6-JH7">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qcc-y6-JH7" firstAttribute="leading" secondItem="aHT-LC-Qtm" secondAttribute="leading" id="BPI-rK-fRf"/>
+                            <constraint firstItem="Qcc-y6-JH7" firstAttribute="top" secondItem="mHu-Gp-Cbt" secondAttribute="bottom" id="MBj-VM-CyK"/>
+                            <constraint firstAttribute="trailing" secondItem="Qcc-y6-JH7" secondAttribute="trailing" id="QgY-7E-hgI"/>
+                            <constraint firstAttribute="bottom" secondItem="Qcc-y6-JH7" secondAttribute="bottom" id="rSI-Sn-aEN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Preview" id="kEi-rn-FiS">
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="4w9-Ci-Wr2">
+                            <connections>
+                                <action selector="usePhoto" destination="i9y-iA-rku" id="JTu-Sx-9HT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="imageView" destination="Qcc-y6-JH7" id="bvb-Rc-Seq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBG-dy-edR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486" y="34"/>
+        </scene>
+    </scenes>
+</document>

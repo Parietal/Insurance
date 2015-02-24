@@ -1,0 +1,41 @@
+[
+  
+    {
+        "initial" : "C",
+        "agents" : [
+            {
+                "id" : 2,
+                "fName" : "Kamaria",
+                "lName" : "Campbell",
+                "imageName" : "profile_F2_Original",
+                "displayName" : "Kamaria Campbell"
+            }
+        ]
+    },
+  
+    {
+        "initial" : "F",
+        "agents" : [
+            {
+                "id" : 0,
+                "fName" : "Mike",
+                "lName" : "Friswald",
+                "imageName" : "profile_M3_Original",
+                "displayName" : "Mike Friswald"
+            }
+        ]
+    },
+  
+    {
+        "initial" : "W",
+        "agents" : [
+            {
+                "id" : 1,
+                "fName" : "Bruce",
+                "lName" : "Weiner",
+                "imageName" : "profile_M2_Original",
+                "displayName" : "Bruce Weiner"
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"id" : 3,
+		"fName" : "Paul",
+		"lName" : "Yuan",
+		"displayName" : "Paul Yuan",
+		"username" : "PualYuan",
+		"password" : "admin",
+		"className" : "Agent",
+		"delegateIds" : [{
+			"delegateId" : 0
+		},{
+			"delegateId" : 1
+		}]
+	}
+]

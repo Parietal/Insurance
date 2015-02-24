@@ -1,0 +1,799 @@
+ [
+  {
+  "id": 0,
+  "fName": "Jenny",
+  "lName": "Muller",
+  "displayName": "Jenny Muller",
+  "birthDate": "1985-05-16",
+  "phone": "312-555-0761",
+  "email": "jmuller@company.com",
+  "address": "4870 N Broadway, Chicago, IL 60640",
+  "mobile": "773-555-0565",
+  "clientSince": "2011-03-04",
+  "age": "30",
+  "marital status": {
+  "id": 1,
+  "title": "Divorced"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,870.00"
+  }
+  },
+  "account": {
+  "amountDue": 10,
+  "remainingBalance": 100,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 9,
+               "policyId": "R0312345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Fire",
+               "subTitle": "Personal Liability Umbrella"
+               },
+               "policyID": "R0312345"
+               },
+               {
+               "id": 10,
+               "policyId": "R0412345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Fire",
+               "subTitle": "Homeowners"
+               },
+               "policyID": "R0412345"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2013-3-4",
+            "time": "3:00 PM",
+            "text": "Discussed Jenny's policies and discount options",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-5-22",
+            "time": "3:00 PM",
+            "text": "Jenny cannot currently afford to purchase a car, but in several months, she is planning to invest and also purchase auto insurance",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 88,
+  "rationale": {
+  "id": 1,
+  "text": "Jenny has her auto insurance at another company and has had it there for 10 years.  She is paying an added premium on her Personal Liability Umbrella for having her auto at another company and has a high propensity to take her policies elsewhere."
+  }
+  },
+  {
+  "id": 1,
+  "fName": "Joe",
+  "lName": "Cotant",
+  "displayName": "Joe Cotant",
+  "birthDate": "1972-06-02",
+  "phone": "312-555-0500",
+  "email": "Jcotant@company.com",
+  "address": "62 W Huron St, Chicago, IL 60654",
+  "mobile": "773-555-0105",
+  "clientSince": "2011-10-01",
+  "age": "42",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 1,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,804.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 3,
+               "policyId": "R09F2126",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "30 Year Term Life"
+               },
+               "policyID": "R09F2126"
+               },
+               {
+               "id": 4,
+               "policyId": "R0212345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Fire",
+               "subTitle": "Homeowners"
+               },
+               "policyID": "R0212345"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2011-11-16",
+            "time": "3:00 PM",
+            "text": "Joe called us to bring over his homeowner's insurance from NationBest Insurance Company. We were able to bundle his auto and give him a MLD on both Auto/Home. We did make the change and update on the auto to include this.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-12-01",
+            "time": "3:00 PM",
+            "text": "Called Joe to ensure we got his daughter's grades to ensure we get the Good Student Discount on their auto policy. Left a message on VM, Sent Text and email.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-05-01",
+            "time": "3:00 PM",
+            "text": "Joe called to cancel his auto insurance. Said he got a better deal at Just Insurance. Wouldn't tell us the difference. Said he needed to be effective 5/1/2014. We did process this.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 70,
+  "rationale": {
+  "id": 1,
+  "text": "Joe recently took his auto insurance to another carrier in May 2014. He has only had his homeowner's for 3 years. Tom does work for a major fortune 500 company that offers very good benefits including life insurance which therefore puts his life insurance in jeopardy as well."
+  }
+  },
+  {
+  "id": 7,
+  "fName": "Jill",
+  "lName": "Sherman",
+  "displayName": "Jill Sherman",
+  "birthDate": "1972-01-03",
+  "phone": "312-555-6914",
+  "email": "jsherman@company.com",
+  "address": "434 W St James Pl, Chicago, IL 60614",
+  "mobile": "773-555-8565",
+  "clientSince": "2012-10-01",
+  "age": "42",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,512.00"
+  }
+  },
+  "account": {
+  "amountDue": 56,
+  "remainingBalance": 616,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 2,
+               "policyId": "R0912345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R0912345"
+               },
+               {
+               "id": 1,
+               "policyId": "R0012345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2012 Honda Accord"
+               },
+               "policyID": "R0012345"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2013-10-1",
+            "time": "3:00 PM",
+            "text": "Talked with Jill about her Homeowner's and she said it's with Best Insurance Co.  and she is very happy with it there, but said it's OK to call her back next year for her renewal for the middle of October.  Pended for Sept 2014 alert.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-06-05",
+            "time": "3:00 PM",
+            "text": "Called Jill about Life Insurance Coverage for Bob and their kids.  She said not interested right now, OK to call back in 6 months. Pended for beginning of December.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 95,
+  "rationale": {
+  "id": 1,
+  "text": "Has homeowner's with Best Insurance.  She was involved in an at fault accident in April and her renewal in July increased her rates by 20%.  She has had Best Insurance for 20 years.  She has a Universal Life Policy, but it's only 3 years old."
+  }
+  },
+  {
+  "id": 10,
+  "fName": "Paul",
+  "lName": "Castro",
+  "displayName": "Paul Castro",
+  "birthDate": "1973-08-01",
+  "phone": "312-555-8723",
+  "email": "pcastro@company.com",
+  "address": "2954 W Lyndale St, Chicago, IL 60647",
+  "mobile": "773-555-854694",
+  "clientSince": "2014-12-14",
+  "age": "42",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,590.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 5,
+               "policyId": "R0612345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R0612345"
+               },
+               {
+               "id": 7,
+               "policyId": "R06893725",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2011 Ford F150 XLT"
+               },
+               "policyID": "R06893725"
+               },
+               {
+               "id": 8,
+               "policyId": "987666",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Payment Plan",
+               "subTitle": "Monthly Payment Plan"
+               },
+               "policyID": "987666"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2014-02-01",
+            "time": "3:00 PM",
+            "text": "Paul called us regarding his auto insurance to see if we can add his MacBook on his PAP.  We got the information and added it on.  Paul also sent us a receipt for this too.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-04-05",
+            "time": "3:00 PM",
+            "text": "We called Paul to see if we can quote his Home & Auto.  He said his renewal isn't until November and wants to review at that time.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F2_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 22,
+  "rationale": {
+  "id": 1,
+  "text": "Paul is a new customer and has several lines of insurance with Insurance Company."
+  }
+  },
+  {
+  "id": 9,
+  "fName": "Brian",
+  "lName": "Fisk",
+  "displayName": "Brian Fisk",
+  "birthDate": "1990-05-29",
+  "phone": "312-555-0761",
+  "email": "Bfisk@company.com",
+  "address": "6047 Sacramento Ave, Chicago, IL 60659",
+  "mobile": "773-555-8056",
+  "clientSince": "2010-09-02",
+  "age": "24",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,200.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 0,
+               "policyId": "RF00098745",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2014 Cadillac Escalade"
+               },
+               "policyID": "RF00098745"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2014-04-15",
+            "time": "3:00 PM",
+            "text": "Talked to Brian and he was just finishing grad school at Ivy League University and moving back in with his parents and doesn't need Renters/Homeowner's.  Talked to him about having having a life insurance policy to give him a Multi-line discount to protect his future and cover his student loans should something happen.  He declined at this point.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M3_Original",
+            "displayName": "Mike Friswald"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-06-07",
+            "time": "3:00 PM",
+            "text": "Brian called to change out his 2001 Pontiac Grand Prix to the 2014 Cadillac Escalade his parents got him for his graduation.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M3_Original",
+            "displayName": "Mike Friswald"
+            }
+            },
+            {
+            "id": 3,
+            "date": "2014-07-30",
+            "time": "3:00 PM",
+            "text": "Called Brian based on alert to discuss a personal articles policy and covering any jewelry, collectibles, or a laptop.  He declined and said his laptop was old and he may be buying a new one and will consider it.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M3_Original",
+            "displayName": "Mike Friswald"
+            }
+            }
+            ],
+  "retentionRiskScore": 45,
+  "rationale": {
+  "id": 1,
+  "text": "Brian has had his auto insurance with our company for 9 years.  He just moved back in with his parents and they are insured with our company as well.  There isn't a need for renter's insurance or homeowner's insurance."
+  }
+  },
+  {
+  "id": 5,
+  "fName": "Meiling",
+  "lName": "Cheng",
+  "displayName": "Meiling Cheng",
+  "birthDate": "1966-12-30",
+  "phone": "312-555-0222",
+  "email": "mcheng@company.com",
+  "address": "111 W Maple Ave, Chicago, IL 60610",
+  "mobile": "312-555-0222",
+  "clientSince": "2010-09-21",
+  "age": "58",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$970.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 11,
+               "policyId": "R0315555",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Fire",
+               "subTitle": "Homeowners"
+               },
+               "policyID": "R0315555"
+               },
+               {
+               "id": 12,
+               "policyId": "R01F1116",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R01F1116"
+               },
+               {
+               "id": 13,
+               "policyId": "R0412555",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2010 Honda Pilot"
+               },
+               "policyID": "R0412555"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2012-04-15",
+            "time": "3:00 PM",
+            "text": "Spoke with Meiling about adding a Living Benefits Rider to her Universal Life account. She is concerned about her future due to potential early onset of an illness that runs in her family. ",
+            "author": {
+            "id": 4,
+            "fName": "Lucy",
+            "lName": "Chen",
+            "imageName": "profile_F7_Original",
+            "displayName": "Lucy Chen"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-06-01",
+            "time": "3:00 PM",
+            "text": "Called Meiling based on alert to discuss lapsed Personal Articles policy. Lapse was intentional.",
+            "author": {
+            "id": 4,
+            "fName": "Lucy",
+            "lName": "Chen",
+            "imageName": "profile_F7_Original",
+            "displayName": "Lucy Chen"
+            }
+            }
+            ],
+  "retentionRiskScore": 50,
+  "rationale": {
+  "id": 1,
+  "text": "Meiling intentionally allowed Personal Articles policy to lapse in 2013. She has yet to miss a premium on her current policies. Bundling an additional policy with her existing Life and Fire will decrease chance of attrition."
+  }
+  },
+  {
+  "id": 3,
+  "fName": "Rob",
+  "lName": "Dorn",
+  "displayName": "Rob Dorn",
+  "birthDate": "1970-06-12",
+  "phone": "312-555-0761",
+  "email": "rdorn@company.com",
+  "address": "1942 N Sheffield Ave, Chicago, IL 60614",
+  "mobile": "312-555-0761",
+  "clientSince": "2007-05-16",
+  "age": "44",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,350.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 14,
+               "policyId": "R0312355",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2014 Toyota Tundra"
+               },
+               "policyID": "R0312355"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2007-05-23",
+            "time": "3:00 PM",
+            "text": "Rob is missing a signature on his application. He re-submitted in order to avoid the application cancellation.",
+            "author": {
+            "id": 6,
+            "fName": "Blaine",
+            "lName": "Dolph",
+            "imageName": "profile_M6_Original",
+            "displayName": "Blaine Dolph"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-01-06",
+            "time": "3:00 PM",
+            "text": "Rob is not interested in purchasing any Life or Fire policies at this time to bundle with his auto. He is interested in setting up additional policies for his grandchildren in the next year.",
+            "author": {
+            "id": 6,
+            "fName": "Blaine",
+            "lName": "Dolph",
+            "imageName": "profile_M6_Original",
+            "displayName": "Blaie Dolph"
+            }
+            }
+            ],
+  "retentionRiskScore": 45,
+  "rationale": {
+  "id": 1,
+  "text": "Rob has been a loyal customer for 7 years. He only owns one auto policy so attrition risk may be high."
+  }
+  },
+  {
+  "id": 6,
+  "fName": "Helena",
+  "lName": "Liu",
+  "displayName": "Helena Liu",
+  "birthDate": "1960-02-08",
+  "phone": "312-555-0723",
+  "email": "hliu@company.com",
+  "address": "71 S Wacker Dr, Chicago, IL 60606",
+  "mobile": "312-555-0723",
+  "clientSince": "1995-09-02",
+  "age": "54",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$6,000.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 15,
+               "policyId": "R0312333",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "30 Year Term Life"
+               },
+               "policyID": "R0312333"
+               },
+               {
+               "id": 16,
+               "policyId": "R09F21666",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Fire",
+               "subTitle": "Personal Articles"
+               },
+               "policyID": "R09F21666"
+               },
+               {
+               "id": 17,
+               "policyId": "R09F2888",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Auto",
+               "subTitle": "2008 Nissan Ultima"
+               },
+               "policyID": "R09F2888"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2005-05-23",
+            "time": "3:00 PM",
+            "text": "Called Helena to wish her a happy 10 year anniversary. She took advantage of adding a loyalty discount and would not like to register for monthly payment plan.",
+            "author": {
+            "id": 7,
+            "fName": "Caroline",
+            "lName": "Canning",
+            "imageName": "profile_F3_Original",
+            "displayName": "Caroline Canning"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-01-06",
+            "time": "3:00 PM",
+            "text": "Offered Helena an accident forgiveness rider on her auto policy - she declined.",
+            "author": {
+            "id": 7,
+            "fName": "Caroline",
+            "lName": "Canning",
+            "imageName": "profile_F3_Original",
+            "displayName": "Caroline Canning"
+            }
+            }
+            ],
+  "retentionRiskScore": 20,
+  "rationale": {
+  "id": 1,
+  "text": "Helena owns auto, fire, and life policies bundled for a discount. She has never missed a premium payment. She has submitted 2 auto claims in the 19 years as a client."
+  }
+  }
+  ]

@@ -1,0 +1,106 @@
+ [
+  {
+  "initial": "C",
+  "clients": [
+              
+              {
+              "id": 10,
+              "fName": "Paul",
+              "lName": "Castro",
+              "displayName": "Paul Castro",
+              "settings": {
+              "showAlert": true
+              }
+              },
+              {
+              "id": 5,
+              "fName": "Meiling",
+              "lName": "Cheng",
+              "displayName": "Meiling Cheng",
+              "settings": {
+              "showAlert": true
+              }
+              },
+              {
+              "id": 1,
+              "fName": "Joe",
+              "lName": "Cotant",
+              "displayName": "Joe Cotant",
+              "settings": {
+              "showAlert": true
+              }
+              },
+
+              ]
+  },
+  {
+  "initial": "D",
+  "clients": [
+              {
+              "id": 3,
+              "fName": "Rob",
+              "lName": "Dorn",
+              "displayName": "Rob Dorn",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "F",
+  "clients": [
+              {
+              "id": 9,
+              "fName": "Brian",
+              "lName": "Fisk",
+              "displayName": "Brian Fisk",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "L",
+  "clients": [
+              {
+              "id": 6,
+              "fName": "Helena",
+              "lName": "Liu",
+              "displayName": "Helena Liu",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "M",
+  "clients": [
+              {
+              "id": 0,
+              "fName": "Jenny",
+              "lName": "Muller",
+              "displayName": "Jenny Muller",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  },
+  {
+  "initial": "S",
+  "clients": [
+              {
+              "id": 7,
+              "fName": "Jill",
+              "lName": "Sherman",
+              "displayName": "Jill Sherman",
+              "settings": {
+              "showAlert": true
+              }
+              }
+              ]
+  }
+  ]

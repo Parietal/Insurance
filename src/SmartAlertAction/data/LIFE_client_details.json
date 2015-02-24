@@ -1,0 +1,894 @@
+ [
+  {
+  "id": 0,
+  "fName": "Jenny",
+  "lName": "Muller",
+  "displayName": "Jenny Muller",
+  "birthDate": "1972-01-03",
+  "phone": "312-555-6914",
+  "email": "jennymuller@company.com",
+  "address": "434 W St James Pl, Chicago, IL 60614",
+  "mobile": "773-555-8565",
+  "clientSince": "2012-10-01",
+  "age": "42",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,512.00"
+  }
+  },
+  "account": {
+  "amountDue": 56,
+  "remainingBalance": 616,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 2,
+               "policyId": "R0912345",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R0912345"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2013-10-1",
+            "time": "3:00 PM",
+            "text": "Talked with Jenny about her Homeowner's and she said it's with Best Insurance Co.  and she is very happy with it there, but said it's OK to call her back next year for her renewal for the middle of October.  Pended for Sept 2014 alert.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-06-05",
+            "time": "3:00 PM",
+            "text": "Called Jenny about Life Insurance Coverage for Bob and their kids.  She said not interested right now, OK to call back in 6 months. Pended for beginning of December.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F12_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 95,
+  "rationale": {
+  "id": 1,
+  "text": "Has homeowner's with Best Insurance.  She was involved in an at fault accident in April and her renewal in July increased her rates by 20%.  She has had Best Insurance for 20 years.  She has a Universal Life Policy, but it's only 3 years old."
+  }
+  },
+  {
+  "id": 8,
+  "fName": "Brian",
+  "lName": "Fisk",
+  "displayName": "Brian Fisk",
+  "birthDate": "1976-09-07",
+  "phone": "312-555-1278",
+  "email": "bfisk@company.com",
+  "address": "4250 Runamuck Pl, Chicago, IL 60606",
+  "mobile": "312-555-5988",
+  "clientSince": "2010-07-08",
+  "age": "38",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,900.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 19,
+               "policyId": "R89676385",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Whole Life"
+               },
+               "policyID": "R89676385"
+               },
+               {
+               "id": 20,
+               "policyId": "R90784848",
+               "type": {
+               "id": 2,
+               "code": "",
+               "title": "Life",
+               "subTitle": "20 Year Term Life"
+               },
+               "policyID": "R90784848"
+               },
+               {
+               "id": 21,
+               "policyId": "45890332",
+               "type": {
+               "id": 3,
+               "code": "",
+               "title": "Payment Plan",
+               "subTitle": "Monthly Payment Plan"
+               },
+               "policyID": "45890332"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2010-07-08",
+            "time": "3:00 PM",
+            "text": "Brian came to us as a referral and we did a needs analysis and discovered it was important to him to have permanent and term life insurance",
+            "author": {
+            "id": 7,
+            "fName": "Caroline",
+            "lName": "Canning",
+            "imageName": "profile_M11_Original",
+            "displayName": "Caroline Canning"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-10-05",
+            "time": "3:00 PM",
+            "text": "Brian called to inquire about life insurance for his wife.  We set up an appointment to discuss.",
+            "author": {
+            "id": 7,
+            "fName": "Caroline",
+            "lName": "Canning",
+            "imageName": "profile_M17_Original",
+            "displayName": "Caroline Canning"
+            }
+            }
+            ],
+  "retentionRiskScore": 29,
+  "rationale": {
+  "id": 1,
+  "text": "Brian has two policies, one being a permanent life insurance and term life.  He has had them in place for 4 years  and never missed any payments."
+  }
+  },
+  {
+  "id": 17,
+  "fName": "Rob",
+  "lName": "Dorn",
+  "displayName": "Rob Dorn",
+  "birthDate": "1985-03-03",
+  "phone": "312-555-2599",
+  "email": "rdorn@company.com",
+  "address": "8700 W Jackson Blvd, Apt 22, Chicago, IL 60606",
+  "mobile": "312-555-5988",
+  "clientSince": "2010-07-08",
+  "age": "38",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$480.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 22,
+               "policyId": "R4583909874",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R4583909874"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2013-07-31",
+            "time": "3:00 PM",
+            "text": "Rob is a friend of mine and saw the value in having permanent life insurance",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F12_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-06-05",
+            "time": "3:00 PM",
+            "text": "Rob called and asked about updating his beneficiaries and how much cash value he had in the policy",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F12_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 65,
+  "rationale": {
+  "id": 1,
+  "text": "Due to Robs's age and a single line, he has a slightly higher than average propensity to defect.  He is a permanent life insurance customer, but there is the propensity there to defect."
+  }
+  },
+  {
+  "id": 13,
+  "fName": "Sam",
+  "lName": "Rahimi",
+  "displayName": "Sam Rahimi",
+  "birthDate": "1968-01-03",
+  "phone": "312-555-5390",
+  "email": "sam.rahimi@company.com",
+  "address": "8700 W Jackson Blvd, Apt 22, Chicago, IL 60606",
+  "mobile": "312-555-5988",
+  "clientSince": "2010-07-08",
+  "age": "38",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$1,500.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 23,
+               "policyId": "R832020284892",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Whole Life"
+               },
+               "policyID": "R832020284892"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2009-06-01",
+            "time": "3:00 PM",
+            "text": "Sam called me off one of my ad's and was interested in discussion life insurance options.  Took an app for Whole Life",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-04-18",
+            "time": "3:00 PM",
+            "text": "Called Sam to set up an insurance review to ensure everything was working the way he intended it to and had the proper coverage.  He politely declined at this time, said everything is ok.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"
+            }
+            }
+            ],
+  "retentionRiskScore": 46,
+  "rationale": {
+  "id": 1,
+  "text": "Sam has had his life insurance for 5 years and has a permanent policy.  Due to his payment history, type of policy, death benefit, cash value, and premium, Sam isn't likely to take his business elsewhere."
+  }
+  },
+  {
+  "id": 11,
+  "fName": "Helena",
+  "lName": "Liu",
+  "displayName": "Helena Liu",
+  "birthDate": "1975-04-15",
+  "phone": "312-555-2922",
+  "email": "hliu@company.com",
+  "address": "1801 S Harrison Rd, Chicago, IL 60606",
+  "mobile": "312-555-2378",
+  "clientSince": "2010-10-05",
+  "age": "39",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$636.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 24,
+               "policyId": "R9839309450",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "30 Year Term Life"
+               },
+               "policyID": "R9839309450"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2010-10-05",
+            "time": "3:00 PM",
+            "text": "We did a needs analysis for Helena today regarding her life insurance, she agreed to the need and wanted the best value, but maintain this life insurance until her kids were all through with school.  We agreed upon a 30 year term.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2013-04-07",
+            "time": "3:00 PM",
+            "text": "Called Helena to do an insurance review.  She agreed and we set up an appointment for 5/10/2013.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"
+            }
+            }
+            ],
+  "retentionRiskScore": 60,
+  "rationale": {
+  "id": 1,
+  "text": "Due to the type of policy, term, and payment history, she isn't highly likely to leave our company.  She does have only one product which puts her in a higher than average category to potentially leave."
+  }
+  },
+  {
+  "id": 16,
+  "fName": "Sujin",
+  "lName": "Im",
+  "displayName": "Sujin Im",
+  "birthDate": "1981-05-10",
+  "phone": "312-555-7843",
+  "email": "sim@company.com",
+  "address": "1801 S Harrison Rd, Chicago, IL 60606",
+  "mobile": "312-555-1911",
+  "clientSince": "2008-02-05",
+  "age": "33",
+  "marital status": {
+  "id": 1,
+  "title": "Divorced"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$396.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 25,
+               "policyId": "R1383929018443",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "20 Year Term Life"
+               },
+               "policyID": "R1383929018443"
+               },
+               {
+               "id": 26,
+               "policyId": "88996374",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Payment Plan",
+               "subTitle": "Monthly Payment Plan"
+               },
+               "policyID": "88996374"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2010-04-15",
+            "time": "3:00 PM",
+            "text": "Sujin called us to let us know that she and Mike were getting a divorced and wanted to ensure that the beneficiaries were changed and the households were split up to her new address",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2014-06-22",
+            "time": "3:00 PM",
+            "text": "Sujin called regarding her payment plan, she wanted to change bank accounts.",
+            "author": {
+            "id": 0,
+            "fName": "Mike",
+            "lName": "Friswald",
+            "imageName": "profile_M17_Original",
+            "displayName": "Mike Friswald"            }
+            }
+            ],
+  "retentionRiskScore": 75,
+  "rationale": {
+  "id": 1,
+  "text": "Sujin has been with our company for 6 years.  She is a single line household with a 20 year term."
+  }
+  },
+  {
+  "id": 12,
+  "fName": "Chris",
+  "lName": "Scott",
+  "displayName": "Chris Scott",
+  "birthDate": "1952-07-05",
+  "phone": "312-555-2399",
+  "email": "cscott@company.com",
+  "address": "8956 Canal Street, Chicago, IL 60606",
+  "mobile": "312-555-9937",
+  "clientSince": "1994-04-05",
+  "age": "33",
+  "marital status": {
+  "id": 1,
+  "title": "Divorced"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$812.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 27,
+               "policyId": "R7788929292",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Whole Life"
+               },
+               "policyID": "R7788929292"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2000-04-15",
+            "time": "3:00 PM",
+            "text": "Eugene called us to let us know that he and Maxine were getting a divorced and wanted to ensure that the beneficiaries were changed and the households were split up to his new address",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2008-06-15",
+            "time": "3:00 PM",
+            "text": "Called Eugene to do a review.  He declined said he is very happy with us and wasn't interested at this time.  Pended for a few years out.",
+            "author": {
+            "id": 0,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 3,
+            "date": "2011-10-21",
+            "time": "3:00 PM",
+            "text": "Called Eugene for a life insurance review and a review of his policy.  He said he really likes having that policy as a back up for cash value, and just wants to leave it alone. ",
+            "author": {
+            "id": 0,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 20,
+  "rationale": {
+  "id": 1,
+  "text": "Eugene has been a customer for 20 years with permanent life insurance.  He has never been late on a payment and has a preferred rate."
+  }
+  },
+  {
+  "id": 15,
+  "fName": "Peter",
+  "lName": "Arterburn",
+  "displayName": "Peter Arterburn",
+  "birthDate": "1982-07-07",
+  "phone": "312-555-8889",
+  "email": "parterburn@company.com",
+  "address": "7977 Wabbash St, Chicago, IL 60606",
+  "mobile": "312-555-9388",
+  "clientSince": "2014-07-24",
+  "age": "32",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$800.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 28,
+               "policyId": "New Application",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "30 Year Term Life"
+               },
+               "policyID": "Pending"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2014-07-24",
+            "time": "3:00 PM",
+            "text": "Wrote Peter's 30 Year Term Policy.  He was referred by Jenny Campbell.  He was interested in protecting his son in case something happened to him",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 0,
+  "rationale": {
+  "id": 1,
+  "text": "New Customer"
+  }
+  },
+  {
+  "id": 14,
+  "fName": "Penny",
+  "lName": "Vrabec",
+  "displayName": "Penny Vrabec",
+  "birthDate": "1978-08-01",
+  "phone": "312-555-8948",
+  "email": "pvrabec@company.com",
+  "address": "8295 Monroe Street, Chicago, IL 60606",
+  "mobile": "312-555-3212",
+  "clientSince": "2008-02-05",
+  "age": "36",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$660.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 18,
+               "policyId": "R8381019830333",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "Universal Life"
+               },
+               "policyID": "R8381019830333"
+               },
+               {
+               "id": 30,
+               "policyId": "R388139384374",
+               "type": {
+               "id": 2,
+               "code": "",
+               "title": "Life",
+               "subTitle": "30 Year Term Life"
+               },
+               "policyID": "R388139384374"
+               },
+               {
+               "id": 31,
+               "policyId": "224489373",
+               "type": {
+               "id": 3,
+               "code": "",
+               "title": "Payment Plan",
+               "subTitle": "Monthly Payment Plan"
+               },
+               "policyID": "224489373"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2008-02-05",
+            "time": "3:00 PM",
+            "text": "Penny was referred to us by her friend Sara Schultz.  She was looking for life insurance to supplement what she had at work.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            },
+            {
+            "id": 2,
+            "date": "2012-06-22",
+            "time": "3:00 PM",
+            "text": "Penny called to let us know she was no longer working and looking for life insurance options to compliment what she has.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+              "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 89,
+  "rationale": {
+  "id": 1,
+  "text": "Penny has been with our company for 6 years.  She has multiple products including permanent life insurance.  She also has never missed a payment in 6 years."
+  }
+  },
+  {
+  "id": 18,
+  "fName": "Kaan",
+  "lName": "Ersan",
+  "displayName": "Kaan Ersan",
+  "birthDate": "1983-06-22",
+  "phone": "312-555-2000",
+  "email": "kersan@company.com",
+  "address": "78 S Wacker Street, Chicago, IL 60606",
+  "mobile": "312-555-2000",
+  "clientSince": "2013-01-20",
+  "age": "31",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "id": 2,
+  "code": "",
+  "title": "Annualized Premium",
+  "value": "$240.00"
+  }
+  },
+  "account": {
+  "amountDue": 0,
+  "remainingBalance": 0,
+  "currency": "$"
+  },
+  "products": [
+               {
+               "id": 32,
+               "policyId": "R112992828822",
+               "type": {
+               "id": 1,
+               "code": "",
+               "title": "Life",
+               "subTitle": "10 Year Term Life"
+               },
+               "policyID": "R112992828822"
+               },
+               {
+               "id": 33,
+               "policyId": "9983776161",
+               "type": {
+               "id": 2,
+               "code": "",
+               "title": "Payment Plan",
+               "subTitle": "Monthly Payment Plan"
+               },
+               "policyID": "9983776161"
+               }
+               ],
+  "settings": {
+  "showAlert": true
+  },
+  "notes": [
+            {
+            "id": 1,
+            "date": "2014-02-28",
+            "time": "3:00 PM",
+            "text": "Called Kaan to let him know that his payment was late on his life insurance.  He said he just got paid and will send some money in.",
+            "author": {
+            "id": 2,
+            "fName": "Kamaria",
+            "lName": "Campbell",
+            "imageName": "profile_F1_Original",
+            "displayName": "Kamaria Campbell"
+            }
+            }
+            ],
+  "retentionRiskScore": 25,
+  "rationale": {
+  "id": 1,
+  "text": "Kaan has a single line that only has 8 years left until it's maturity.  He has one missed payment in the last 2 years."
+  }
+  }
+  ]

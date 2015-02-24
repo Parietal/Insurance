@@ -1,0 +1,115 @@
+[
+
+    {
+        "initial" : "A",
+        "agents" : [
+            {
+                "id" : 8,
+                "fName" : "Raphael",
+                "lName" : "Arar",
+                "displayName" : "Raphael Arar",
+                "imageName" : "profile_M1_Original",
+                "isDelegate" : false
+            },
+            
+            {
+                "id" : 9,
+                "fName" : "Monique",
+                "lName" : "Alvis",
+                "displayName" : "Monique Alvis",
+                "imageName" : "profile_F1_Original",
+                "isDelegate" : false
+            }
+        ]
+    },
+
+    {
+        "initial" : "B",
+        "agents" : [
+            {
+                "id" : 5,
+                "fName" : "Neil",
+                "lName" : "Bhatt",
+                "displayName" : "Neil Bhatt",
+                "imageName" : "profile_M5_Original",
+                "isDelegate" : false
+            }
+        ]
+    },
+ 
+    {
+        "initial" : "C",
+        "agents" : [
+            {
+                "id" : 7,
+                "fName" : "Caroline",
+                "lName" : "Canning",
+                "displayName" : "Caroline Canning",
+                "imageName" : "profile_F3_Original",
+                "isDelegate" : false
+            },
+                    {
+                    "id" : 2,
+                    "fName" : "Kamaria",
+                    "lName" : "Campbell",
+                    "displayName" : "Kamaria Campbell",
+                    "imageName" : "profile_F2_Original",
+                    "isDelegate" : true
+                    },
+                    {
+                    "id" : 4,
+                    "fName" : "Lucy",
+                    "lName" : "Chen",
+                    "displayName" : "Lucy Chen",
+                    "imageName" : "profile_F7_Original",
+                    "isDelegate" : false
+                    }
+                    
+        ]
+    },
+
+    {
+        "initial" : "D",
+        "agents" : [
+
+            {
+                "id" : 6,
+                "fName" : "Blaine",
+                "lName" : "Dolph",
+                "displayName" : "Blaine Dolph",
+                "imageName" : "profile_M6_Original",
+                "isDelegate" : false
+            }
+            
+        ]
+    },
+
+    {
+        "initial" : "F",
+        "agents" : [
+            {
+                "id" : 0,
+                "fName" : "Mike",
+                "lName" : "Friswald",
+                "displayName" : "Mike Friswald",
+                "imageName" : "profile_M3_Original",
+                "isDelegate" : true
+            }
+        ]
+    },
+ 
+    {
+        "initial" : "W",
+        "agents" : [
+            {
+                "id" : 1,
+                "fName" : "Bruce",
+                "lName" : "Weiner",
+                "displayName" : "Bruce Weiner",
+                "imageName" : "profile_M2_Original",
+                "isDelegate" : true
+            }
+        ]
+    }
+
+]

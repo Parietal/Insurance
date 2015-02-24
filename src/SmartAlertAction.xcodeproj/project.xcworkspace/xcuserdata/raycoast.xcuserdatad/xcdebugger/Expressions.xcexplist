@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SmartAlertAction.AppDelegate.application (SmartAlertAction.AppDelegate)(ObjectiveC.UIApplication, didReceiveLocalNotification : ObjectiveC.UILocalNotification) -&gt; ():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSBundle.mainBundle().localizedInfoDictionary">
+            </PersistentString>
+            <PersistentString
+               value = "NSBundle.mainBundle()">
+            </PersistentString>
+            <PersistentString
+               value = "application.applicationState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SmartAlertAction.MainViewController.showAlertDetails (SmartAlertAction.MainViewController)(Swift.Int) -&gt; ():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(self.selectedViewController as UISplitViewController).viewControllers[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SmartAlertAction.AppDelegate.(application (SmartAlertAction.AppDelegate) -&gt; (ObjectiveC.UIApplication, handleActionWithIdentifier : Swift.Optional&lt;Swift.String&gt;, forLocalNotification : ObjectiveC.UILocalNotification, completionHandler : () -&gt; ()) -&gt; ()).(closure #2).(closure #1):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.window?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

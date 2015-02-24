@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Contact Information-->
+        <scene sceneID="st7-Cd-BHX">
+            <objects>
+                <tableViewController storyboardIdentifier="clientInformation" id="ao9-vL-u5u" customClass="ClientInfoIphoneTableVC" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="68" sectionHeaderHeight="22" sectionFooterHeight="22" id="gt4-UA-e3t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="center" selectionStyle="default" indentationWidth="10" reuseIdentifier="clientDetailheaderCell" rowHeight="99" id="pOy-dp-t7j" customClass="ClientDetailHeaderCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pOy-dp-t7j" id="bUM-j6-oQS">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5w-1t-v9o">
+                                            <rect key="frame" x="15" y="8" width="133" height="28"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Label">
+                                                    <attributes>
+                                                        <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <font key="NSFont" size="18" name="HelveticaNeue"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbz-Jf-Cbv">
+                                            <rect key="frame" x="15" y="44" width="175" height="26"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="250" translatesAutoresizingMaskIntoConstraints="NO" id="4Ng-os-diP">
+                                            <rect key="frame" x="15" y="28" width="250" height="26"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="clientName" destination="r5w-1t-v9o" id="rGh-sL-8mB"/>
+                                    <outlet property="clientSince" destination="Nbz-Jf-Cbv" id="9p7-WB-ZIo"/>
+                                    <outlet property="dobAge" destination="4Ng-os-diP" id="Yq1-gW-EvV"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="addressCell" rowHeight="70" id="kDe-hW-lUc" customClass="ClientDetailContactTableViewCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kDe-hW-lUc" id="450-Lv-QC9">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBK-AQ-khT">
+                                            <rect key="frame" x="15" y="7" width="460" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="460" id="xEd-MW-LBb"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-a9-uAp">
+                                            <rect key="frame" x="15" y="23" width="180" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfU-vf-3jt">
+                                            <rect key="frame" x="222" y="15" width="36" height="36"/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44o-DJ-Zv4">
+                                            <rect key="frame" x="281" y="16" width="36" height="36"/>
+                                            <state key="normal" image="icon_car_up">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="rightButton2Tapped:" destination="ao9-vL-u5u" eventType="touchUpInside" id="Wp1-xE-j3A"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="contentLabel" destination="dkd-a9-uAp" id="ttU-sK-wta"/>
+                                    <outlet property="rightButton1" destination="44o-DJ-Zv4" id="6I9-bh-h6E"/>
+                                    <outlet property="rightButton2" destination="EfU-vf-3jt" id="TJf-wW-DUb"/>
+                                    <outlet property="titleLabel" destination="BBK-AQ-khT" id="NNS-wj-gFT"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="contactCell" rowHeight="70" id="zrn-lA-JBZ" customClass="ClientDetailContactTableViewCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zrn-lA-JBZ" id="HJb-4z-fia">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbY-CH-4gr">
+                                            <rect key="frame" x="15" y="7" width="460" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="460" id="Aq5-Xz-bRX"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tl-jo-avE">
+                                            <rect key="frame" x="15" y="17" width="180" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54K-C9-uxY">
+                                            <rect key="frame" x="223" y="12" width="36" height="36"/>
+                                            <state key="normal" image="icon_text_up">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="rightButton1Tapped:" destination="ao9-vL-u5u" eventType="touchUpInside" id="q0l-4J-760"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzH-AM-pXs">
+                                            <rect key="frame" x="281" y="12" width="36" height="36"/>
+                                            <state key="normal" image="icon_phone_up">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="rightButton2Tapped:" destination="ao9-vL-u5u" eventType="touchUpInside" id="1CM-bw-kpx"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="contentLabel" destination="2Tl-jo-avE" id="oGO-RZ-jpE"/>
+                                    <outlet property="rightButton1" destination="tzH-AM-pXs" id="ppj-qu-3Td"/>
+                                    <outlet property="rightButton2" destination="54K-C9-uxY" id="9kf-zt-Xak"/>
+                                    <outlet property="titleLabel" destination="cbY-CH-4gr" id="VdP-Gk-yur"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ao9-vL-u5u" id="fTp-nj-ogi"/>
+                            <outlet property="delegate" destination="ao9-vL-u5u" id="2P1-pM-MXK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Contact Information" id="IIM-WO-ZDF">
+                        <barButtonItem key="rightBarButtonItem" image="icon_settings" id="aK1-cH-PRm">
+                            <connections>
+                                <action selector="settingsTapped:" destination="ao9-vL-u5u" id="fmh-qW-env"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJ8-HH-hwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173" y="240"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Kpk-kC-kJL">
+            <objects>
+                <navigationController storyboardIdentifier="ClientInfoViewIphoneVC" id="jOL-yh-aIl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J0j-uo-OKx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ao9-vL-u5u" kind="relationship" relationship="rootViewController" id="x1b-yi-Rco"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EEj-8Z-Dg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-647" y="240"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_car_up" width="25" height="25"/>
+        <image name="icon_phone_up" width="25" height="25"/>
+        <image name="icon_settings" width="25" height="25"/>
+        <image name="icon_text_up" width="25" height="25"/>
+    </resources>
+</document>

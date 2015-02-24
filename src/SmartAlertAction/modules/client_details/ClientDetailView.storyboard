@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="F8K-wp-V05">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="juO-ig-r8M">
+            <objects>
+                <navigationController id="F8K-wp-V05" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NkS-nz-igF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pX6-u2-CJz" kind="relationship" relationship="rootViewController" id="pmn-RA-pRz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9dA-OA-InP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-789" y="378"/>
+        </scene>
+        <!--Contact Information-->
+        <scene sceneID="gpe-KJ-vGR">
+            <objects>
+                <viewController storyboardIdentifier="ClientDetailViewVC" id="pX6-u2-CJz" customClass="ClientDetailViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wjU-Yj-mrs"/>
+                        <viewControllerLayoutGuide type="bottom" id="FXd-Gb-xLu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7IO-Kw-rJC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gSI-Pb-jwE">
+                                <rect key="frame" x="335" y="77" width="259" height="301"/>
+                                <connections>
+                                    <outlet property="delegate" destination="pX6-u2-CJz" id="vme-Uj-Fak"/>
+                                </connections>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="66" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Ca6-CF-7qU">
+                                <rect key="frame" x="11" y="75" width="306" height="321"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="addressCell" rowHeight="70" id="Ww3-dL-kf9" customClass="ClientDetailContactTableViewCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ww3-dL-kf9" id="cLq-bB-jCP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdN-Z1-aea">
+                                                    <rect key="frame" x="15" y="7" width="460" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="460" id="lN4-1u-W96"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cff-iw-QU2">
+                                                    <rect key="frame" x="15" y="25" width="180" height="37"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGj-u9-F6f">
+                                                    <rect key="frame" x="211" y="12" width="36" height="36"/>
+                                                    <state key="normal" image="icon_text_up">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="rightButton1Tapped:" destination="pX6-u2-CJz" eventType="touchUpInside" id="lAb-Gw-Kte"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ix-MJ-cb9">
+                                                    <rect key="frame" x="274" y="12" width="30" height="36"/>
+                                                    <state key="normal" image="icon_phone_up">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="rightButton2Tapped:" destination="pX6-u2-CJz" eventType="touchUpInside" id="Ozd-Kx-dC6"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contentLabel" destination="cff-iw-QU2" id="ZXX-uG-CAh"/>
+                                            <outlet property="rightButton1" destination="4Ix-MJ-cb9" id="qsP-9q-xYr"/>
+                                            <outlet property="rightButton2" destination="BGj-u9-F6f" id="tDI-af-dTC"/>
+                                            <outlet property="titleLabel" destination="IdN-Z1-aea" id="YUM-AV-hRl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="contactCell" rowHeight="49" id="ihY-hO-qi8" customClass="ClientDetailContactTableViewCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ihY-hO-qi8" id="8tb-L5-tPi">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJ8-3g-jPg">
+                                                    <rect key="frame" x="15" y="6" width="460" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="460" id="tBi-wh-uRO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x42-aC-08Q">
+                                                    <rect key="frame" x="15" y="22" width="180" height="27"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPD-gt-GkF">
+                                                    <rect key="frame" x="210" y="7" width="36" height="36"/>
+                                                    <state key="normal" image="icon_text_up">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="rightButton1Tapped:" destination="pX6-u2-CJz" eventType="touchUpInside" id="7HQ-Qb-4AM"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLm-iT-lFx">
+                                                    <rect key="frame" x="277" y="7" width="29" height="36"/>
+                                                    <state key="normal" image="icon_phone_up">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="rightButton2Tapped:" destination="pX6-u2-CJz" eventType="touchUpInside" id="k5b-oo-ree"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contentLabel" destination="x42-aC-08Q" id="Jfd-gg-OO8"/>
+                                            <outlet property="rightButton1" destination="PLm-iT-lFx" id="AVg-6U-J1P"/>
+                                            <outlet property="rightButton2" destination="kPD-gt-GkF" id="oL5-5h-Lec"/>
+                                            <outlet property="titleLabel" destination="BJ8-3g-jPg" id="hLu-bv-Htx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="saveContactCell" id="Kuk-tx-VwD" customClass="ActionTableViewCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="316" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kuk-tx-VwD" id="ii7-Vs-iAI">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wav-ES-Hms">
+                                                    <rect key="frame" x="14" y="18" width="186" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <state key="normal" title="Save contact to device">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="saveContactBtn:" destination="pX6-u2-CJz" eventType="touchUpInside" id="slb-Uj-cxX"/>
+                                                        <action selector="saveContactTapped:" destination="Kuk-tx-VwD" eventType="touchUpInside" id="F9B-fa-BFp"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pX6-u2-CJz" id="3Jz-iy-eBK"/>
+                                    <outlet property="delegate" destination="pX6-u2-CJz" id="ZSe-7h-9mK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="gSI-Pb-jwE" secondAttribute="trailing" constant="15" id="6yG-dp-Bec"/>
+                            <constraint firstItem="gSI-Pb-jwE" firstAttribute="leading" secondItem="Ca6-CF-7qU" secondAttribute="trailing" constant="30" id="Hoc-kc-Psg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gSI-Pb-jwE" secondAttribute="trailing" id="aqI-1R-lLL"/>
+                            <constraint firstItem="Ca6-CF-7qU" firstAttribute="leading" secondItem="7IO-Kw-rJC" secondAttribute="leadingMargin" constant="15" id="ayG-yH-J5K"/>
+                            <constraint firstItem="gSI-Pb-jwE" firstAttribute="width" secondItem="Ca6-CF-7qU" secondAttribute="width" id="jg1-f2-UV5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact Information" id="GCN-Qq-2wP">
+                        <barButtonItem key="rightBarButtonItem" image="icon_settings" id="chH-dd-bvO">
+                            <connections>
+                                <action selector="settingsTapped:" destination="pX6-u2-CJz" id="9tE-DW-cqz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressMapView" destination="gSI-Pb-jwE" id="iza-yh-JvW"/>
+                        <outlet property="contactTableView" destination="Ca6-CF-7qU" id="Zrt-B7-v16"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7i5-PE-VLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_phone_up" width="25" height="25"/>
+        <image name="icon_settings" width="25" height="25"/>
+        <image name="icon_text_up" width="25" height="25"/>
+    </resources>
+</document>

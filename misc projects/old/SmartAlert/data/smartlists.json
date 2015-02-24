@@ -1,0 +1,51 @@
+[
+
+	{
+		"id" : 0,
+		"title" : "Retention Alert",
+		"body" : "Adam Williams - Policy R1F29046 expires in 30 days",
+		"date" : "11:30am",
+		"isPastDue" : false
+	},
+
+	{
+		"id" : 0,
+		"title" : "Lead Alert",
+		"body" : "Online lead referral for insurance advice",
+		"date" : "8:10am",
+		"isPastDue" : false
+	},
+
+	{
+		"id" : 0,
+		"title" : "Unpaid Premium",
+		"body" : "Sue Jones is at risk of missing her monthly premium of $56.00 due ...",
+		"date" : "11:30am",
+		"isPastDue" : false
+	},
+
+	{
+		"id" : 0,
+		"title" : "NIGO Alert",
+		"body" : "Application F9577388 is missing driver's license number via Sarah Wilson",
+		"date" : "11:30am",
+		"isPastDue" : false
+	},
+
+	{
+		"id" : 0,
+		"title" : "Unpaid Premium",
+		"body" : "Sue Jones is at risk of missing a montly premium",
+		"date" : "Yesterday",
+		"isPastDue" : true
+	},
+
+	{
+		"id" : 0,
+		"title" : "NIGO Alert",
+		"body" : "Application is missing driver's license number",
+		"date" : "Friday 7/30/14",
+		"isPastDue" : true
+	}
+
+]

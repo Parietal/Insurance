@@ -1,0 +1,102 @@
+[
+
+	{
+		"id" : 10, 
+		"billingDate" : "2014-11-15",
+		"amount" : 65,
+		"dueDate" : "2014-11-30",
+		"payment" : 65,
+		"receivedDate" : "2014-12-2"
+	},
+
+	{
+		"id" : 0, 
+		"billingDate" : "2014-9-15",
+		"amount" : 65,
+		"dueDate" : "2014-9-30",
+		"payment" : 0,
+		"receivedDate" : ""
+	},
+
+	{
+		"id" : 1, 
+		"billingDate" : "2014-8-15",
+		"amount" : 65,
+		"dueDate" : "2014-8-30",
+		"payment" : 65,
+		"receivedDate" : "2014-8-20"
+	},
+
+	{
+		"id" : 2, 
+		"billingDate" : "2014-7-15",
+		"amount" : 65,
+		"dueDate" : "2014-7-30",
+		"payment" : 65,
+		"receivedDate" : "2014-7-31"
+	},
+
+	{
+		"id" : 3, 
+		"billingDate" : "2014-6-15",
+		"amount" : 65,
+		"dueDate" : "2014-6-30",
+		"payment" : 65,
+		"receivedDate" : "2014-7-5"
+	},
+
+	{
+		"id" : 4, 
+		"billingDate" : "2014-5-15",
+		"amount" : 65,
+		"dueDate" : "2014-5-30",
+		"payment" : 65,
+		"receivedDate" : "2014-5-30"
+	},
+
+	{
+		"id" : 5, 
+		"billingDate" : "2014-4-15",
+		"amount" : 65,
+		"dueDate" : "2014-4-30",
+		"payment" : 65,
+		"receivedDate" : "2014-4-29"
+	},
+
+	{
+		"id" : 6, 
+		"billingDate" : "2014-3-15",
+		"amount" : 65,
+		"dueDate" : "2014-3-30",
+		"payment" : 65,
+		"receivedDate" : "2014-3-28"
+	},
+
+	{
+		"id" : 7, 
+		"billingDate" : "2014-2-15",
+		"amount" : 65,
+		"dueDate" : "2014-2-28",
+		"payment" : 65,
+		"receivedDate" : "2014-2-27"
+	},
+
+	{
+		"id" : 8, 
+		"billingDate" : "2014-1-15",
+		"amount" : 65,
+		"dueDate" : "2014-1-30",
+		"payment" : 65,
+		"receivedDate" : "2014-2-2"
+	},
+
+	{
+		"id" : 9, 
+		"billingDate" : "2013-12-15",
+		"amount" : 65,
+		"dueDate" : "2013-12-30",
+		"payment" : 65,
+		"receivedDate" : "2014-12-31"
+	}
+
+]

@@ -1,0 +1,1251 @@
+ [
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Bundle Universal Life payment with Auto payment to reduce future lapse risks",
+  "title": "Negotiate Monthly Payment Plan"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$1,512.00"
+  }
+  },
+  "birthDate": "1972-01-03",
+  "clientSince": "2012-10-01",
+  "displayName": "Jenny Muller",
+  "email": "jennymuller@company.com",
+  "fName": "Jenny",
+  "gender": {
+  "id": 2,
+  "title": "Female"
+  },
+  "id": 0,
+  "lName": "Muller",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "phone": "312-555-0914",
+  "products": [
+               {
+               "id": 2,
+               "policyId": "R0912345",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Universal Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 0,
+  "isCompleted": false,
+  "message": "Client missed monthly premium of $56.00 due 7/31/14. Policy lapse date 8/31/14",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 2,
+  "policyId": "R0912345",
+  "type": {
+  "code": "0101",
+  "id": 2,
+  "subTitle": "Universal Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$1,512.00"
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of adding a permanent policy",
+  "title": "Life Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Unpaid Premium",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 3
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+  "title": "Discuss auto-pay registration"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$1,900.00"
+  }
+  },
+  "birthDate": "1976-09-07",
+  "clientSince": "2010-07-08",
+  "displayName": "Brian Fisk",
+  "email": "bfisk@company.com",
+  "fName": "Brian",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 8,
+  "lName": "Fisk",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "phone": "312-555-1278",
+  "products": [
+               {
+               "id": 19,
+               "policyID": "R89676385",
+               "policyId": "R89676385",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Whole Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 20,
+               "policyId": "R90784848",
+               "type": {
+               "code": "",
+               "id": 2,
+               "subTitle": "20 Year Term Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 21,
+               "policyId": "45890332",
+               "type": {
+               "code": "",
+               "id": 3,
+               "subTitle": "Monthly Payment Plan",
+               "title": "Payment Plan"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 1,
+  "isCompleted": false,
+  "message": "Client missed monthly premium of $158.34 due 7/31. Policy lapse date 8/31.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policy": {
+  "id": 21,
+  "policyId": "45890332",
+  "type": {
+  "code": "555",
+  "id": 3,
+  "subTitle": "Monthly Payment Plan",
+  "title": "Payment Plan"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$158.34"
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Recently added a member to household. Discounts available on Children's Life Insurance",
+  "title": "Life Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Unpaid Premium",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 4
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+  "title": "Discuss auto-pay registration"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$480.00"
+  }
+  },
+  "birthDate": "1985-03-03",
+  "clientSince": "2010-07-08",
+  "displayName": "Rob Dorn",
+  "email": "rdorn@company.com",
+  "fName": "Rob",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 17,
+  "lName": "Dorn",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "phone": "312-555-2599",
+  "products": [
+               {
+               "id": 22,
+               "policyID": "R4583909874",
+               "policyId": "R4583909874",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Universal Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 2,
+  "isCompleted": false,
+  "message": "Client missed annual premium of $480.00 due on 7/31.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 22,
+  "policyId": "R4583909874",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "Universal Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$480.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Recently switched jobs. Discounts available for Waiver of Premium Rider",
+  "title": "Waiver of Premium Rider Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Unpaid Premium",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+  "title": "Renew policy before end of grace period"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$1,500.00"
+  }
+  },
+  "birthDate": "1968-01-03",
+  "clientSince": "2010-07-08",
+  "displayName": "Sam Rahimi",
+  "email": "Sam.Rahimi@company.com",
+  "fName": "Sam",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 13,
+  "lName": "Rahimi",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "phone": "312-555-5390",
+  "products": [
+               {
+               "id": 23,
+               "policyID": "R832020284892",
+               "policyId": "R832020284892",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Whole Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 3,
+  "isCompleted": false,
+  "message": "Client's policy lapsed on 7/31. The past due amount is $1,500. Policy was set to renew on 7/24.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 23,
+  "policyId": "R832020284892",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "Whole Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$1,500.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Household has 4 members and only 1 life policy (5 discounts available)",
+  "title": "Life Insurance Sale and Bundle Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Policy Lapse",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 5
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+  "title": "Renew policy before end of grace period"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$636.00"
+  }
+  },
+  "birthDate": "1975-04-15",
+  "clientSince": "2010-10-05",
+  "displayName": "Helena Liu",
+  "email": "hliu@company.com",
+  "fName": "Helena",
+  "gender": {
+  "id": 1,
+  "title": "Female"
+  },
+  "id": 11,
+  "lName": "Liu",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "phone": "312-555-2922",
+  "products": [
+               {
+               "id": 24,
+               "policyID": "R9839309450",
+               "policyId": "R9839309450",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "30 Year Term Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 4,
+  "isCompleted": false,
+  "message": "Client's policy is at risk of policy lapse on 10/20. Consecutive late payments from client for the past two renewals.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 24,
+  "policyId": "R9839309450",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "30 Year Term Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$636.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Client recently added newborn son as a dependent. Offer Child Protection Rider (1 discount available)",
+  "title": "Life Insurance Sale and Bundle Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Policy Lapse",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 4
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Remind client of renewal opportunity available until 8/31.",
+  "title": "Discuss surrender and renewal"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$480.00"
+  }
+  },
+  "birthDate": "1985-03-03",
+  "clientSince": "2010-07-08",
+  "displayName": "Rob Dorn",
+  "email": "rdorn@company.com",
+  "fName": "Rob",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 17,
+  "lName": "Dorn",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "phone": "312-555-2599",
+  "products": [
+               {
+               "id": 22,
+               "policyID": "R4583909874",
+               "policyId": "R4583909874",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Universal Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 5,
+  "isCompleted": true,
+  "message": "Insurance Company has sent notice that client would like to surrender Universal Life Insurance Policy",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 22,
+  "policyId": "R4583909874",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "Universal Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$480.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the available discounts and benefits of continuing to hold policy with Agency",
+  "title": "Additional Life Insurance Discount"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Surrender Notice",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note their current products with other insurers. Find a convenient time for them to complete the quoting process",
+  "title": "Discuss prospect's interests and needs"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$0.00"
+  }
+  },
+  "birthDate": "1985-03-03",
+  "clientSince": "",
+  "displayName": "Paul Castro",
+  "email": "pcastro@company.com",
+  "fName": "Paul",
+  "gender": {
+  "id": 1,
+  "title": ""
+  },
+  "id": 55,
+  "lName": "Castro",
+  "marital status": {
+  "id": 1,
+  "title": ""
+  },
+  "phone": "312-555-0687",
+  "products": [
+               {
+               "id": 555,
+               "policyID": "",
+               "policyId": "",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "",
+               "title": ""
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 6,
+  "isCompleted": false,
+  "message": "Life lead from bestlifequote.com. New quote abandoned by prospect",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 0
+  },
+  "policy": {
+  "id": 555,
+  "policyId": "",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "",
+  "title": ""
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the potential savings of up to $500 by signing up for Life Insurance",
+  "title": "Contact prospect to complete quoting process"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Quote Abandoned",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note their current products with other insurers. Find a convenient time for them to discuss the final quote and reason for abandonment.",
+  "title": "Discuss prospect's interests and needs"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$0.00"
+  }
+  },
+  "birthDate": "1985-03-03",
+  "clientSince": "",
+  "displayName": "Jill Sherman",
+  "email": "jsherman@company.com",
+  "fName": "Jill",
+  "gender": {
+  "id": 1,
+  "title": ""
+  },
+  "id": 55,
+  "lName": "Sherman",
+  "marital status": {
+  "id": 1,
+  "title": ""
+  },
+  "phone": "312-555-0687",
+  "products": [
+               {
+               "id": 555,
+               "policyID": "",
+               "policyId": "",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "",
+               "title": ""
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 7,
+  "isCompleted": false,
+  "message": "Life lead from bestlifequote.com. New quote completed but not purchased by prostpect.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 0
+  },
+  "policy": {
+  "id": 555,
+  "policyId": "",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "",
+  "title": ""
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the potential savings of up to $500 by signing up for Life Insurance",
+  "title": "Contact prospect to discuss the 20 Year Term Life quote and sale options."
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Quote Abandoned",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note their current products with other insurers. Find a convenient time for them to discuss the general question from prospect.",
+  "title": "Discuss prospect's interests and needs"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$0.00"
+  }
+  },
+  "birthDate": "1985-03-03",
+  "clientSince": "",
+  "displayName": "Joe Cotant",
+  "email": "jcotant@company.com",
+  "fName": "Joe",
+  "gender": {
+  "id": 1,
+  "title": ""
+  },
+  "id": 55,
+  "lName": "Cotant",
+  "marital status": {
+  "id": 1,
+  "title": ""
+  },
+  "phone": "312-555-0687",
+  "products": [
+               {
+               "id": 555,
+               "policyID": "",
+               "policyId": "",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "",
+               "title": ""
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 8,
+  "isCompleted": false,
+  "message": "Life lead from call center. General question from prospect.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 0
+  },
+  "policy": {
+  "id": 555,
+  "policyId": "",
+  "type": {
+  "code": "555",
+  "id": 1,
+  "subTitle": "",
+  "title": ""
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the potential savings of up to $500 by signing up for Life Insurance",
+  "title": "Contact prospect to address question and complete quoting process."
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "General Question",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Share quote with the client during the next conversation about their policies and future plans.",
+  "title": "Quote Permanent Life Insurance"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$396.00"
+  }
+  },
+  "birthDate": "1981-05-10",
+  "clientSince": "2008-02-05",
+  "displayName": "Sujin Im",
+  "email": "sim@company.com",
+  "fName": "Sujin",
+  "gender": {
+  "id": 1,
+  "title": "Female"
+  },
+  "id": 16,
+  "lName": "Im",
+  "marital status": {
+  "id": 1,
+  "title": "Divorced"
+  },
+  "phone": "312-555-7843",
+  "products": [
+               {
+               "id": 25,
+               "policyID": "R1383929018443",
+               "policyId": "R1383929018443",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "20 Year Term Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 26,
+               "policyId": "88996374",
+               "type": {
+               "code": "",
+               "id": 2,
+               "subTitle": "Monthly Payment Plan",
+               "title": "Payment Plan"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 9,
+  "isCompleted": false,
+  "message": "Client has high propensity to buy Permanent Life Insurance.",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policy": {
+  "id": 25,
+  "policyId": "",
+  "type": {
+  "code": "",
+  "id": 1,
+  "subTitle": "",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of bundling a Permanent Life Insurance policy with current policy. (1 discount available)",
+  "title": "Life Insurance Sale Opportunity."
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "New Product",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 6
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Follow up to discuss claim details as requested by the Family",
+  "title": "Advise beneficiaries on claim"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$812.00"
+  }
+  },
+  "birthDate": "1952-07-05",
+  "clientSince": "1994-04-05",
+  "displayName": "Chris Scott",
+  "email": "cscott@company.com",
+  "fName": "Chris",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 12,
+  "lName": "Scott",
+  "marital status": {
+  "id": 1,
+  "title": "Divorced"
+  },
+  "phone": "312-555-7843",
+  "products": [
+               {
+               "id": 27,
+               "policyID": "R7788929292",
+               "policyId": "R7788929292",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Whole Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 10,
+  "isCompleted": false,
+  "message": "Death claim submitted for client. Follow up requested by family",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 27,
+  "policyId": "R7788929292",
+  "type": {
+  "code": "0301",
+  "id": 1,
+  "subTitle": "Whole Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$812.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Follow up according to sequential claim processing procedure",
+  "title": "Sequential Claim Processing"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Claim Submitted",
+  "title": "Claims"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 20
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Collect missing signature from client and submit for processing",
+  "title": "Request missing information"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$800.00"
+  }
+  },
+  "birthDate": "1982-07-07",
+  "clientSince": "2014-07-24",
+  "displayName": "Peter Arterburn",
+  "email": "parterburn@company.com",
+  "fName": "Peter",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 15,
+  "lName": "Arterburn",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "phone": "312-555-8889",
+  "products": [
+               {
+               "id": 28,
+               "policyID": "New Application",
+               "policyId": "New Application",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "30 Year Term Life",
+               "title": "Life"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 11,
+  "isCompleted": false,
+  "message": "Application is incomplete. Client is missing signature on 30 Year Term Life Application",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policy": {
+  "id": 28,
+  "policyId": "New Application",
+  "type": {
+  "code": "0401",
+  "id": 1,
+  "subTitle": "30 Year Term Life",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": "$800.00"
+  },
+  "rank": 5,
+  "salesRecommendation": {
+  "detail": "Discuss potential savings by signing up for Disability Income Rider",
+  "title": "Discuss possible additional discounts"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Missing Information",
+  "title": "Pending Business"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note the client’s current products and find a convenient time for them to discuss adding additional policies",
+  "title": "Discuss interests and needs of client"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$240.00"
+  }
+  },
+  "birthDate": "1983-06-22",
+  "clientSince": "2013-01-20",
+  "displayName": "Kaan Ersan",
+  "email": "KaanErsan@company.com",
+  "fName": "Kaan",
+  "gender": {
+  "id": 2,
+  "title": "Male"
+  },
+  "id": 18,
+  "lName": "Ersan",
+  "marital status": {
+  "id": 1,
+  "title": "Never Married"
+  },
+  "phone": "312-555-2000",
+  "products": [
+               {
+               "id": 32,
+               "policyID": "R112992828822",
+               "policyId": "R112992828822",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "10 Year Term Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 33,
+               "policyId": "9983776161",
+               "type": {
+               "code": "",
+               "id": 2,
+               "subTitle": "Monthly Payment Plan",
+               "title": "Payment Plan"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 12,
+  "isCompleted": false,
+  "message": "Question from Client regarding purchasing additional Life Insurance products",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policy": {
+  "id": 32,
+  "policyId": "",
+  "type": {
+  "code": "",
+  "id": 1,
+  "subTitle": "",
+  "title": "Life"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Client is interested in purchasing additional life insurance products (3 discounts available)",
+  "title": "Life Insurance Sales Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "General Question",
+  "title": "Pending Business"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "",
+  "title": "Wish client a happy 36th Birthday"
+  },
+  "client": {
+  "annualized premium": {
+  "id": 1,
+  "type": {
+  "code": "",
+  "id": 2,
+  "title": "Annualized Premium",
+  "value": "$660.00"
+  }
+  },
+  "birthDate": "1978-08-01",
+  "clientSince": "2008-02-05",
+  "displayName": "Penny Vrabec",
+  "email": "pvrabec@company.com",
+  "fName": "Penny",
+  "gender": {
+  "id": 1,
+  "title": "Female"
+  },
+  "id": 14,
+  "lName": "Vrabec",
+  "marital status": {
+  "id": 1,
+  "title": "Married"
+  },
+  "phone": "312-555-8948",
+  "products": [
+               {
+               "id": 18,
+               "policyID": "R8381019830333",
+               "policyId": "R8381019830333",
+               "type": {
+               "code": "",
+               "id": 1,
+               "subTitle": "Universal Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 30,
+               "policyId": "R388139384374",
+               "type": {
+               "code": "",
+               "id": 2,
+               "subTitle": "30 Year Term Life",
+               "title": "Life"
+               }
+               },
+               {
+               "id": 31,
+               "policyId": "224489373",
+               "type": {
+               "code": "",
+               "id": 3,
+               "subTitle": "Monthly Payment Plan",
+               "title": "Payment Plan"
+               }
+               }
+               ]
+  },
+  "date": "2014-09-05",
+  "id": 13,
+  "isCompleted": false,
+  "message": "Today is Penny Vrabec's Birthday",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policy": {
+  "id": 31,
+  "policyId": "",
+  "type": {
+  "code": "",
+  "id": 3,
+  "subTitle": "",
+  "title": "Payment Plan"
+  }
+  },
+  "policyPremium": {
+  "title": "Policy Premium",
+  "value": ""
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Client is growing older and may be interested in discussing Life policies",
+  "title": "Life Insurance Sales Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "subTitle": "Birthday",
+  "title": "Life Events"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 6
+  }
+  }
+  ]

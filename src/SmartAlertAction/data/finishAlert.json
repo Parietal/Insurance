@@ -1,0 +1,26 @@
+ [
+    {
+        "title": "Spoke with client, resolved",
+        "level": 1
+    },
+    {
+        "title": "Emailed or Texted client",
+        "level": 1
+    },
+    {
+        "title": "Spoke with client, unresolved",
+        "level": 2
+    },
+    {
+        "title": "Called, no response",
+        "level": 2
+    },
+    {
+        "title": "Called, left message",
+        "level": 2
+    },
+    {
+        "title": "Other...",
+        "level": 3
+    }
+  ]

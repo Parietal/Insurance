@@ -1,0 +1,13 @@
+{
+
+	"date" : "August 1, 2014 at 11:30PM",
+	"client" : "Sue Jones",
+	"age" : 54,
+	"phone" : "555-555-5555",
+	"email" : "suejones@email.com",
+	"title" : "Retention Alert",
+	"message" : "Sue Jones missed her monthly premium of $56.00 due 7/30/14. Policy lapse date 8/31/2014",
+	"policy" : "30 year Term Life Insurance",
+	"recommended_actions" : "Send follow up reminder to renew a policy with a revised lower premium"
+
+}

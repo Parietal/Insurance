@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43CCE43F-856E-4412-92D8-48A73637F2B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SmartAlertAction</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EA586CED94B45809FC381539DEAB4AE0F8F27D2B</key>
+		<string>https://hub.jazz.net/git/mobilefirstios/(insurance).smart_alert_iphone</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/SmartAlertAction.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EA586CED94B45809FC381539DEAB4AE0F8F27D2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://hub.jazz.net/git/mobilefirstios/(insurance).smart_alert_iphone</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EA586CED94B45809FC381539DEAB4AE0F8F27D2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA586CED94B45809FC381539DEAB4AE0F8F27D2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>(insurance)</string>
+		</dict>
+	</array>
+</dict>
+</plist>

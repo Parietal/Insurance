@@ -1,0 +1,277 @@
+{
+    "delegate": [
+               {
+               "name": "RETENTION",
+               "detail": [
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Joe Cotant",
+                          "delegateAgent": "Monique Alvis",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Rob Dorn",
+                          "delegateAgent": "Sue Miller-Sylvia",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Brian Fisk",
+                          "delegateAgent": "Mike Friswald",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Brett Wachter",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Jennifer Martin",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Joe Cotant",
+                          "delegateAgent": "Jon Wiita",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jenny Muller",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Brian Fisk",
+                          "delegateAgent": "Brett Wachter",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Jenny Muller",
+                          "delegateAgent": "Rachel Roth",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Brian Fisk",
+                          "delegateAgent": "Kim Kilgo",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Rob Dorn",
+                          "delegateAgent": "Kim Kilgo",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Brett Wachter",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Paul Castro",
+                          "delegateAgent": "Racehl Roth",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Meiling Cheng",
+                          "delegateAgent": "Patrick Clough",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Joe Cotant",
+                          "delegateAgent": "Gail Schwartz",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Monique Alvis",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Jenny Muller",
+                          "delegateAgent": "Suzzanne Connolly",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Jenny Muller",
+                          "delegateAgent": "Suzzanne Connolly",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Rob Dorn",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Rob Dorn",
+                          "delegateAgent": "Jon Wiita",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Jill Sherman",
+                          "delegateAgent": "Kamaria Campbell",
+                          "rank": 3
+                          },
+                          {
+                          "desc": "Lapse Risk",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Rachel Roth",
+                          "rank": 1
+                          },
+                          {
+                          "desc": "Policy Expired",
+                          "clientName": "Helena Liu",
+                          "delegateAgent": "Brett Wachter",
+                          "rank": 5
+                          }
+                          ]
+               },
+               {
+               "name": "LEADS",
+               "detail": [
+                          {
+                          "desc": "Policy Surrendered",
+                          "clientName": "Benjamin Luke",
+                          "delegateAgent": "Monique Alvis",
+                          "rank": 2
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Sam Rahimi",
+                          "delegateAgent": "Mike Friswald",
+                          "rank": 4
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Chris Scott",
+                          "delegateAgent": "Mike Stern",
+                          "rank": 5
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": "Hafiz Usama",
+                          "delegateAgent": "Mike Stern",
+                          "rank": 2
+                          },
+                          {
+                          "desc": "Unpaid Premium",
+                          "clientName": " Sujim Im",
+                          "delegateAgent": "Mike Stern",
+                          "rank": 4
+                          }
+                          ]
+                 },
+                 {
+                 "name": "CLAIMS",
+                 "detail": [
+                            {
+                            "desc": "Policy Surrendered",
+                            "clientName": "Jill Sherman",
+                            "delegateAgent": "Mike Stern",
+                            "rank": 5
+                            },
+                            {
+                            "desc": "Unpaid Premium",
+                            "clientName": "Joe Cotant",
+                            "delegateAgent": "Jon Wiita",
+                            "rank": 1
+                            }
+                            ]
+                 },
+                 {
+                 "name": "PENDING",
+                 "detail": [
+                            {
+                            "desc": "Policy Surrendered",
+                            "clientName": "Paul Castro",
+                            "delegateAgent": "Parth Modi",
+                            "rank": 2
+                            },
+                            {
+                            "desc": "Unpaid Premium",
+                            "clientName": "Paul Castro",
+                            "delegateAgent": "Parth Modi",
+                            "rank": 4
+                            },
+                            {
+                            "desc": "Unpaid Premium",
+                            "clientName": "Helena Liu",
+                            "delegateAgent": "Brett Wachter",
+                            "rank": 5
+                            },
+                            {
+                            "desc": "Unpaid Premium",
+                            "clientName": "Jill Sherman",
+                            "delegateAgent": "Jeremy Koch",
+                            "rank": 2
+                            },
+                            {
+                            "desc": "Unpaid Premium",
+                            "clientName": "Jenny Muller",
+                            "delegateAgent": "Jeremy Koch",
+                            "rank": 4
+                            }
+                            ]
+                 }
+                 
+               ]
+}

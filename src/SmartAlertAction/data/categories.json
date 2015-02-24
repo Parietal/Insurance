@@ -1,0 +1,52 @@
+ [
+  {
+  "code": "0100",
+  "id": 100,
+  "policyType": "",
+  "subTitle": "",
+  "title": "Retention",
+  "settings" : {
+    "receiveNotification" : true
+  }
+  },
+  {
+  "code": "0200",
+  "id": 200,
+  "policyType": "",
+  "subTitle": "",
+  "title": "Leads",
+  "settings" : {
+  "receiveNotification" : true
+  }
+  },
+  {
+  "code": "0300",
+  "id": 300,
+  "policyType": "",
+  "subTitle": "",
+  "title": "Claims",
+  "settings" : {
+  "receiveNotification" : true
+  }
+  },
+  {
+  "code": "0400",
+  "id": 400,
+  "policyType": "",
+  "subTitle": "",
+  "title": "Pending Business",
+  "settings" : {
+  "receiveNotification" : true
+  }
+  },
+  {
+  "code": "0500",
+  "id": 500,
+  "policyType": "",
+  "subTitle": "",
+  "title": "Life Events",
+  "settings" : {
+  "receiveNotification" : true
+  }
+  }
+]

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZaI-Rh-XLy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Billing Detail View Controller-->
+        <scene sceneID="BsM-hw-DIA">
+            <objects>
+                <viewController storyboardIdentifier="billingVc" wantsFullScreenLayout="YES" id="mpA-Do-kLR" customClass="BillingDetailViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5vd-X6-X6U"/>
+                        <viewControllerLayoutGuide type="bottom" id="RFt-IL-zfX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0zL-Hb-6RF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="KEV-tc-8mF">
+                                <rect key="frame" x="0.0" y="36" width="615" height="592"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="592" id="Ova-Na-Ic8"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="billingHeaderCell" id="UgF-5D-nPg" customClass="BillingHeaderCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="75" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UgF-5D-nPg" id="05p-n4-HU8">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billing date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0t-45-mbl">
+                                                    <rect key="frame" x="24" y="15" width="92" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Due date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZQ-Xr-Gau">
+                                                    <rect key="frame" x="294" y="15" width="80" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Payment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzQ-Ri-D7q">
+                                                    <rect key="frame" x="413" y="15" width="73" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billed Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ1-YN-xQm">
+                                                    <rect key="frame" x="148" y="14" width="116" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Received Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZb-Fb-iet">
+                                                    <rect key="frame" x="533" y="14" width="112" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.93677819289999997" green="0.93677819289999997" blue="0.93677819289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="billingAmountHdr" destination="BQ1-YN-xQm" id="fcp-OR-RcR"/>
+                                            <outlet property="billingDateHdr" destination="N0t-45-mbl" id="XHc-y8-V7E"/>
+                                            <outlet property="dueDateHdr" destination="ZZQ-Xr-Gau" id="6EV-3D-Hcv"/>
+                                            <outlet property="paidAmountHdr" destination="pzQ-Ri-D7q" id="euH-y8-dUV"/>
+                                            <outlet property="receivedDateHdr" destination="XZb-Fb-iet" id="zxP-tT-YBx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="billingDetailCell" id="jlK-kt-o7B" customClass="PolicyBillingDetailCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="131" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jlK-kt-o7B" id="Xb0-HH-fcr">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$65.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxf-gO-X3r">
+                                                    <rect key="frame" x="169" y="11" width="76" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11/30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMF-01-auE">
+                                                    <rect key="frame" x="306" y="11" width="44" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$65.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgQ-NG-hvC">
+                                                    <rect key="frame" x="415" y="11" width="85" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12/02" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYp-8b-Yca">
+                                                    <rect key="frame" x="557" y="4" width="55" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11/05" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyp-f3-ta2">
+                                                    <rect key="frame" x="40" y="11" width="44" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="billingAmount" destination="Rxf-gO-X3r" id="Q2x-Tl-vwv"/>
+                                            <outlet property="billingDate" destination="Jyp-f3-ta2" id="Bbe-ll-R8z"/>
+                                            <outlet property="dueDate" destination="BMF-01-auE" id="my8-t2-ykU"/>
+                                            <outlet property="payment" destination="zgQ-NG-hvC" id="LIp-Kq-XvL"/>
+                                            <outlet property="receivedDate" destination="KYp-8b-Yca" id="EN1-Vh-DGz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="mpA-Do-kLR" id="9ua-m0-fI6"/>
+                                    <outlet property="delegate" destination="mpA-Do-kLR" id="tUZ-uY-fyJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="KEV-tc-8mF" secondAttribute="trailing" constant="-31" id="CU0-ge-uc4"/>
+                            <constraint firstItem="KEV-tc-8mF" firstAttribute="leading" secondItem="0zL-Hb-6RF" secondAttribute="leadingMargin" constant="-16" id="Lnq-3E-PVR"/>
+                            <constraint firstItem="KEV-tc-8mF" firstAttribute="top" secondItem="5vd-X6-X6U" secondAttribute="bottom" constant="16" id="v7I-YS-Hze"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="O8d-fq-WxV"/>
+                    <connections>
+                        <outlet property="billingDetailsTableView" destination="KEV-tc-8mF" id="Dw6-sp-9Ia"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="okh-Pj-KYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1676" y="611"/>
+        </scene>
+        <!--Product-->
+        <scene sceneID="pQ5-pF-8mq">
+            <objects>
+                <viewController storyboardIdentifier="productContainerVc" id="BT4-4q-afX" customClass="ProductContainerViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jVf-sQ-Z86"/>
+                        <viewControllerLayoutGuide type="bottom" id="OXr-Mt-Tfg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qJv-Jw-fmr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="buK-cl-H6c">
+                                <rect key="frame" x="0.0" y="102" width="600" height="498"/>
+                            </containerView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RWE-4m-E2s">
+                                <rect key="frame" x="200" y="75" width="200" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="hOw-mN-rgE"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Overview" width="100"/>
+                                    <segment title="Billing" width="100"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentValueChanged:" destination="BT4-4q-afX" eventType="valueChanged" id="OUe-ee-kYF"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="RWE-4m-E2s" secondAttribute="centerX" id="86W-fN-Z2d"/>
+                            <constraint firstItem="buK-cl-H6c" firstAttribute="leading" secondItem="qJv-Jw-fmr" secondAttribute="leadingMargin" constant="-16" id="JQY-hG-DLU"/>
+                            <constraint firstItem="RWE-4m-E2s" firstAttribute="top" secondItem="jVf-sQ-Z86" secondAttribute="bottom" constant="10" id="d0n-8Z-qnQ"/>
+                            <constraint firstItem="OXr-Mt-Tfg" firstAttribute="top" secondItem="buK-cl-H6c" secondAttribute="bottom" id="fJV-xk-PfV"/>
+                            <constraint firstItem="buK-cl-H6c" firstAttribute="top" secondItem="RWE-4m-E2s" secondAttribute="bottom" id="gWd-1W-pr6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="buK-cl-H6c" secondAttribute="trailing" constant="-16" id="yyD-dT-x7Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Product" id="mZO-6T-ByO">
+                        <barButtonItem key="rightBarButtonItem" image="icon_settings" id="PTA-vN-QOk">
+                            <connections>
+                                <action selector="settingsTapped:" destination="BT4-4q-afX" id="bS2-mq-iyp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="containerView" destination="buK-cl-H6c" id="4qa-tI-SxO"/>
+                        <outlet property="segmentedControl" destination="RWE-4m-E2s" id="Oi5-Pl-q8A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="StI-fS-d6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="683"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DZY-c3-G64">
+            <objects>
+                <navigationController storyboardIdentifier="PolicyBillingDetailsVC" automaticallyAdjustsScrollViewInsets="NO" id="ZaI-Rh-XLy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9i3-wA-nkd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BT4-4q-afX" kind="relationship" relationship="rootViewController" id="ScH-wD-iJ3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g5P-Za-7i2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="251" y="678"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_settings" width="25" height="25"/>
+    </resources>
+</document>

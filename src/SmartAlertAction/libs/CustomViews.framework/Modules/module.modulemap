@@ -1,0 +1,10 @@
+framework module CustomViews {
+  umbrella header "CustomViews.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomViews.Swift {
+    header "CustomViews-Swift.h"
+}

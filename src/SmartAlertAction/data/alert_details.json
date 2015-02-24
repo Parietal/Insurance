@@ -1,0 +1,1205 @@
+[
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Bundle Universal Life payment with Auto payment to reduce future lapse risks",
+ "title": "Negotiate Monthly Payment Plan"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,512.00"
+ }
+ },
+ "birthDate": "1972-01-03",
+ "clientSince": "2012-10-01",
+ "displayName": "Jill Sherman",
+ "email": "jsherman@company.com",
+ "fName": "Jill",
+ "gender": {
+ "id": 2,
+ "title": "Female"
+ },
+ "id": 7,
+ "lName": "Sherman",
+ "marital status": {
+ "id": 1,
+ "title": "Married"
+ },
+ "phone": "312-555-0914",
+ "products": [
+              {
+              "id": 1,
+              "policyID": "R0012345",
+              "policyId": "R0012345",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "2012 Honda Accord",
+              "title": "Auto"
+              }
+              },
+              {
+              "id": 2,
+              "policyId": "R0912345",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Universal Life",
+              "title": "Life"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 0,
+ "isCompleted": false,
+ "message": "Client missed monthly premium of $56.00 due 7/31/14. Policy lapse date 8/31/14",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 2
+ },
+ "policy": {
+ "id": 2,
+ "policyId": "R0912345",
+ "type": {
+ "code": "0101",
+ "id": 2,
+ "subTitle": "Universal Life",
+ "title": "Life"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,512.00"
+ },
+ "rank": 4,
+ "salesRecommendation": {
+ "detail": "Discuss the benefits of adding a permanent policy",
+ "title": "Life Insurance Sale Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0101",
+ "id": 1,
+ "subTitle": "Unpaid Premium",
+ "title": "Retention"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 3
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+ "title": "Discuss auto-pay registration"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,590.00"
+ }
+ },
+ "birthDate": "1973-08-01",
+ "clientSince": "2014-12-14",
+ "displayName": "Paul Castro",
+ "email": "pcastro@company.com",
+ "fName": "Paul",
+ "gender": {
+ "id": 2,
+ "title": "Male"
+ },
+ "id": 10,
+ "lName": "Castro",
+ "marital status": {
+ "id": 1,
+ "title": "Never Married"
+ },
+ "phone": "312-555-0723",
+ "products": [
+              {
+              "id": 7,
+              "policyID": "R06893725",
+              "policyId": "R06893725",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "2012 Ford F150 XLT",
+              "title": "Auto"
+              }
+              },
+              {
+              "id": 8,
+              "policyId": "987666",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Monthly Payment Plan",
+              "title": "Payment Plan"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 1,
+ "isCompleted": false,
+ "message": "Client missed monthly premium of $132.50 due 7/31/14. Policy lapse date 8/31/14",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 3
+ },
+ "policy": {
+ "id": 8,
+ "policyId": "987666",
+ "type": {
+ "code": "0400",
+ "id": 2,
+ "subTitle": "Monthly Payment Plan",
+ "title": "Payment Plan"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,590.00"
+ },
+ "rank": 4,
+ "salesRecommendation": {
+ "detail": "Household recently purchased their first home and does not have a homeowners policy",
+ "title": "Homeowners Insurance Sale Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0101",
+ "id": 1,
+ "subTitle": "Unpaid Premium",
+ "title": "Retention"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 1
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Bundle Universal Life payment with Auto payment to reduce future lapse risks",
+ "title": "Renew policy before end of grace period"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,804.00"
+ }
+ },
+ "birthDate": "1972-06-02",
+ "clientSince": "2011-10-01",
+ "displayName": "Joe Cotant",
+ "email": "Jcotant@company.com",
+ "fName": "Joe",
+ "gender": {
+ "id": 2,
+ "title": "Male"
+ },
+ "id": 1,
+ "lName": "Cotant",
+ "marital status": {
+ "id": 1,
+ "title": "Married"
+ },
+ "phone": "312-555-0500",
+ "products": [
+              {
+              "id": 4,
+              "policyID": "R0212345",
+              "policyId": "R0212345",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "Homeowners",
+              "title": "Fire"
+              }
+              },
+              {
+              "id": 3,
+              "policyId": "R09F2126",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "30 Year Term Life",
+              "title": "Life"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 2,
+ "isCompleted": false,
+ "message": "Client's policy lapsed on 7/31/14. Policy was set to renew on 7/24/14",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 2
+ },
+ "policy": {
+ "id": 3,
+ "policyId": "R09F2126",
+ "type": {
+ "code": "0102",
+ "id": 2,
+ "subTitle": "30 year Term Life",
+ "title": "Life"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,804.00"
+ },
+ "rank": 3,
+ "salesRecommendation": {
+ "detail": "Household has 2 private passenger vehicles and no auto policies (5 discounts available)",
+ "title": "Auto Insurance Sale Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0103",
+ "id": 1,
+ "subTitle": "Policy Lapse",
+ "title": "Retention"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 3
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Bundle Homeowners and Personal Liability Umbrella, and suggest auto-pay registration to reduce lapse risks",
+ "title": "Negotiate Monthly Payment Plan"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,870.00"
+ }
+ },
+ "birthDate": "1985-05-16",
+ "clientSince": "2011-03-04",
+ "displayName": "Jenny Muller",
+ "email": "jmuller@company.com",
+ "fName": "Jenny",
+ "gender": {
+ "id": 2,
+ "title": "Female"
+ },
+ "id": 0,
+ "lName": "Muller",
+ "marital status": {
+ "id": 1,
+ "title": "Divorced"
+ },
+ "phone": "312-555-0761",
+ "products": [
+              {
+              "id": 10,
+              "policyID": "R0412345",
+              "policyId": "R0412345",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "Homeowners",
+              "title": "Fire"
+              }
+              },
+              {
+              "id": 9,
+              "policyId": "R0312345",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Personal Liability Umbrella",
+              "title": "Fire "
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 3,
+ "isCompleted": false,
+ "message": "Client's policy is at risk of policy lapse on 8/05/14. Amount past due is $1,630.00",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 2
+ },
+ "policy": {
+ "id": 10,
+ "policyId": "R0412345",
+ "type": {
+ "code": "0301",
+ "id": 1,
+ "subTitle": "Homeowners",
+ "title": "Fire"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,870.00"
+ },
+ "rank": 3,
+ "salesRecommendation": {
+ "detail": "Discuss the benefits of adding a permanent policy",
+ "title": "Life Insurance Sale Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0103",
+ "id": 1,
+ "subTitle": "Policy Lapse",
+ "title": "Retention"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 9
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Remind client of renewal opportunity available until 8/31/2014",
+ "title": "Discuss surrender and renewal"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$970.00"
+ }
+ },
+ "birthDate": "1966-12-30",
+ "clientSince": "2010-09-21",
+ "displayName": "Meiling Cheng",
+ "email": "mcheng@company.com",
+ "fName": "Meiling",
+ "gender": {
+ "id": 2,
+ "title": "Female"
+ },
+ "id": 10,
+ "lName": "Cheng",
+ "marital status": {
+ "id": 1,
+ "title": "Married"
+ },
+ "phone": "312-555-0222",
+ "products": [
+              {
+              "id": 11,
+              "policyID": "R0315555",
+              "policyId": "R0315555",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "Homeowners",
+              "title": "Fire"
+              }
+              },
+              {
+              "id": 12,
+              "policyId": "R0412555",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Universal Life",
+              "title": "Life"
+              }
+              },
+              {
+              "id": 13,
+              "policyId": "R0612555",
+              "type": {
+              "code": "",
+              "id": 3,
+              "subTitle": "2010 Honda Pilot",
+              "title": "Auto"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 4,
+ "isCompleted": false,
+ "message": "Insurance company has sent notice that client would like to surrender Universal Life insurance",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 3
+ },
+ "policy": {
+ "id": 12,
+ "policyId": "R0412555",
+ "type": {
+ "code": "0101",
+ "id": 2,
+ "subTitle": "Universal Life",
+ "title": "Life"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$970.00"
+ },
+ "rank": 3,
+ "salesRecommendation": {
+ "detail": "Discuss the benefits of continuing to hold multiple products with the same Agency",
+ "title": "Additional Life Insurance Discount"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0102",
+ "id": 1,
+ "subTitle": "Surrender Notice",
+ "title": "Retention"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 4
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Note their current products with other insurers",
+ "title": "Discuss interests and needs of prospect"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$0.00"
+ }
+ },
+ "birthDate": "",
+ "clientSince": "",
+ "displayName": "Peter Pleckaitis",
+ "email": "ppleckaitis@company.com",
+ "fName": "Peter",
+ "gender": {
+ "id": 2,
+ "title": ""
+ },
+ "id": 0,
+ "lName": "Peckaitis",
+ "marital status": {
+ "id": 1,
+ "title": ""
+ },
+ "phone": "312-555-0687",
+ "products": [
+              {
+              "id": 555,
+              "policyID": "",
+              "policyId": "",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "",
+              "title": ""
+              }
+              },
+              {
+              "id": 555,
+              "policyId": "",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "",
+              "title": ""
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 5,
+ "isCompleted": false,
+ "message": "Auto lead from autoquote.com. Quote requested by prospect",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": null
+ },
+ "policy": {
+ "id": 555,
+ "policyId": "",
+ "type": {
+ "code": "0201",
+ "id": 2,
+ "subTitle": "",
+ "title": ""
+ }
+ },
+ "policyPremium": {
+ "title": "",
+ "value": ""
+ },
+ "rank": 5,
+ "salesRecommendation": {
+ "detail": "Discuss the potential savings of up to $200 by signing up for Auto Insurance",
+ "title": "Contact prospect to complete quoting process"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0201",
+ "id": 1,
+ "subTitle": "Quote Requested",
+ "title": "Lead"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": null
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Note their current products with other insurers. Find a convenient time for them to complete the quoting process",
+ "title": "Discuss prospect's interests and needs"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$0.00"
+ }
+ },
+ "birthDate": "",
+ "clientSince": "",
+ "displayName": "Wendy Yang",
+ "email": "wyang@company.com",
+ "fName": "Wendy",
+ "gender": {
+ "id": 2,
+ "title": ""
+ },
+ "id": 10,
+ "lName": "Yang",
+ "marital status": {
+ "id": 1,
+ "title": ""
+ },
+ "phone": "312-555-0903",
+ "products": [
+              {
+              "id": 555,
+              "policyID": "",
+              "policyId": "",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "",
+              "title": ""
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 6,
+ "isCompleted": false,
+ "message": "Life lead from bestlifequote.com. New quote abandoned by prospect",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": null
+ },
+ "policy": {
+ "id": 555,
+ "policyId": "",
+ "type": {
+ "code": "555",
+ "id": 1,
+ "subTitle": "",
+ "title": ""
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": ""
+ },
+ "rank": 3,
+ "salesRecommendation": {
+ "detail": "Discuss the potential savings of up to $500 by signing up for Life Insurance",
+ "title": "Contact prospect to complete quoting process"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0202",
+ "id": 1,
+ "subTitle": "Quote Abandoned",
+ "title": "Lead"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": null
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Note their current products with other insurers. Find a convenient time for them to complete the quoting process and discuss their question",
+ "title": "Discuss prospect's interests and needs"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$0.00"
+ }
+ },
+ "birthDate": "",
+ "clientSince": "",
+ "displayName": "Chris Scott",
+ "email": "cscott@company.com",
+ "fName": "Chris",
+ "gender": {
+ "id": 2,
+ "title": ""
+ },
+ "id": 10,
+ "lName": "Scott",
+ "marital status": {
+ "id": 1,
+ "title": ""
+ },
+ "phone": "312-555-0300",
+ "products": []
+ },
+ "date": "2014-09-05",
+ "id": 7,
+ "isCompleted": false,
+ "message": "Fire lead from call center. General question from prospect",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": null
+ },
+ "policy": {
+ "id": 1,
+ "policyId": "",
+ "type": {
+ "code": "0201",
+ "id": 201,
+ "subTitle": "",
+ "title": ""
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": ""
+ },
+ "rank": 2,
+ "salesRecommendation": {
+ "detail": "Discuss the potential savings of up to $300 by signing up for Fire Insurance",
+ "title": "Contact prospect to address question and complete quoting process"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0203",
+ "id": 1,
+ "subTitle": "Fire Lead",
+ "title": "Lead"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": null
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Share quote with the client during the next conversation about their policies and future plans",
+ "title": "Quote Personal Article policy"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,350.00"
+ }
+ },
+ "birthDate": "1970-06-12",
+ "clientSince": "2007-05-16",
+ "displayName": "Rob Dorn",
+ "email": "rdorn@company.com",
+ "fName": "Rob",
+ "gender": {
+ "id": 2,
+ "title": "Male"
+ },
+ "id": 9,
+ "lName": "Dorn",
+ "marital status": {
+ "id": 1,
+ "title": "Married"
+ },
+ "phone": "312-555-0761",
+ "products": [
+              {
+              "id": 14,
+              "policyID": "R0312355",
+              "policyId": "R0312355",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "2014 Toyota Tundra",
+              "title": "Auto"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 8,
+ "isCompleted": false,
+ "message": "Client has high propensity to buy Personal Article Insurance",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 1
+ },
+ "policy": {
+ "id": 14,
+ "policyId": "R0312355",
+ "type": {
+ "code": "0201",
+ "id": 1,
+ "subTitle": "2014 Toyota Tundra",
+ "title": "Auto"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,350.00"
+ },
+ "rank": 3,
+ "salesRecommendation": {
+ "detail": "Discuss the benefits of adding a Personal Articles Policy",
+ "title": "Fire Insurance Sale Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0203",
+ "id": 1,
+ "subTitle": "New Product",
+ "title": "Lead"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 7
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Discuss negative impact on premium due to frequency of claims ",
+ "title": "Advise client on claim"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$6,000.00"
+ }
+ },
+ "birthDate": "1960-02-08",
+ "clientSince": "1995-09-02",
+ "displayName": "Helena Liu",
+ "email": "hliu@company.com",
+ "fName": "Helena",
+ "gender": {
+ "id": 2,
+ "title": "Female"
+ },
+ "id": 10,
+ "lName": "Liu",
+ "marital status": {
+ "id": 1,
+ "title": "Never Married"
+ },
+ "phone": "312-555-0723",
+ "products": [
+              {
+              "id": 15,
+              "policyID": "R0312333",
+              "policyId": "R0312333",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "30 Year Term Life",
+              "title": "Life"
+              }
+              },
+              {
+              "id": 16,
+              "policyId": "R09F21666",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Personal Articles",
+              "title": "Fire"
+              }
+              },
+              {
+              "id": 17,
+              "policyId": "R09F2888",
+              "type": {
+              "code": "",
+              "id": 3,
+              "subTitle": "2008 Nissan Ultima",
+              "title": "Auto"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 9,
+ "isCompleted": false,
+ "message": "Client submitted Auto Claim",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 3
+ },
+ "policy": {
+ "id": 17,
+ "policyId": "R09F2983",
+ "type": {
+ "code": "0201",
+ "id": 3,
+ "subTitle": "2008 Nissan Ultima",
+ "title": "Auto"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$6,000.00"
+ },
+ "rank": 2,
+ "salesRecommendation": {
+ "detail": "Follow up according to sequential claim processing procedure",
+ "title": "Sequential Claim Processing"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0301",
+ "id": 1,
+ "subTitle": "Claim Submitted",
+ "title": "Claims"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 19
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Collect missing signature from client and submit for processing",
+ "title": "Request missing information"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,200.00"
+ }
+ },
+ "birthDate": "1990-05-29",
+ "clientSince": "2014-09-02",
+ "displayName": "Brian Fisk",
+ "email": "bfisk@company.com",
+ "fName": "Brian",
+ "gender": {
+ "id": 2,
+ "title": "Male"
+ },
+ "id": 9,
+ "lName": "Fisk",
+ "marital status": {
+ "id": 1,
+ "title": "Never Married"
+ },
+ "phone": "312-555-0761",
+ "products": [
+              {
+              "id": 0,
+              "policyID": "RF00098745",
+              "policyId": "RF00098745",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "2014 Cadillac Escalade",
+              "title": "Auto"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 10,
+ "isCompleted": false,
+ "message": "Application is incomplete. Client is missing signature on Auto Application",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 1
+ },
+ "policy": {
+ "id": 0,
+ "policyId": "RF00098745",
+ "type": {
+ "code": "0201",
+ "id": 1,
+ "subTitle": "2014 Cadillac Escalade",
+ "title": "Auto"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,200.00"
+ },
+ "rank": 5,
+ "salesRecommendation": {
+ "detail": "Notify client that the application process has been delayed but will be expedited once missing information is obtained",
+ "title": "Application Processing Delay"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0401",
+ "id": 1,
+ "subTitle": "Missing Information",
+ "title": "Pending Business"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 1
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "Note the client’s current products and find a convenient time for them to complete the quoting process",
+ "title": "Discuss client’s interests and needs"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,870.00"
+ }
+ },
+ "birthDate": "1985-05-16",
+ "clientSince": "2011-03-04",
+ "displayName": "Jenny Muller",
+ "email": "jmuller@company.com",
+ "fName": "Jenny",
+ "gender": {
+ "id": 2,
+ "title": "Female"
+ },
+ "id": 1,
+ "lName": "Muller",
+ "marital status": {
+ "id": 1,
+ "title": "Divorced"
+ },
+ "phone": "312-555-0761",
+ "products": [
+              {
+              "id": 10,
+              "policyID": "R0412345",
+              "policyId": "R0412345",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "Homeowners",
+              "title": "Fire"
+              }
+              },
+              {
+              "id": 9,
+              "policyId": "R0312345",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Personal Liability Umbrella",
+              "title": "Fire "
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 11,
+ "isCompleted": false,
+ "message": "Question from Client regarding Auto Quote forwarded from call center",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 2
+ },
+ "policy": {
+ "id": 10,
+ "policyId": "",
+ "type": {
+ "code": "",
+ "id": 1,
+ "subTitle": "",
+ "title": "Fire"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,870.00"
+ },
+ "rank": 4,
+ "salesRecommendation": {
+ "detail": "Client is interested in purchasing an auto policy (3 discounts available)",
+ "title": "Auto Insurance Sales Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0401",
+ "id": 1,
+ "subTitle": "General Question",
+ "title": "Pending Business"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 9
+ }
+ },
+ {
+ "actions": [],
+ "alertRecommendation": {
+ "detail": "",
+ "title": "Wish client a happy 42nd Birthday"
+ },
+ "client": {
+ "annualized premium": {
+ "id": 1,
+ "type": {
+ "code": "",
+ "id": 2,
+ "title": "Annualized Premium",
+ "value": "$1,590.00"
+ }
+ },
+ "birthDate": "1973-08-01",
+ "clientSince": "2014-12-14",
+ "displayName": "Paul Castro",
+ "email": "pcastro@company.com",
+ "fName": "Paul",
+ "gender": {
+ "id": 2,
+ "title": "Male"
+ },
+ "id": 10,
+ "lName": "Castro",
+ "marital status": {
+ "id": 1,
+ "title": "Never Married"
+ },
+ "phone": "312-555-0723",
+ "products": [
+              {
+              "id": 7,
+              "policyID": "R06893725",
+              "policyId": "R06893725",
+              "type": {
+              "code": "",
+              "id": 1,
+              "subTitle": "2012 Ford F150 XLT",
+              "title": "Auto"
+              }
+              },
+              {
+              "id": 8,
+              "policyId": "987666",
+              "type": {
+              "code": "",
+              "id": 2,
+              "subTitle": "Monthly Payment Plan",
+              "title": "Payment Plan"
+              }
+              }
+              ]
+ },
+ "date": "2014-09-05",
+ "id": 12,
+ "isCompleted": false,
+ "message": "Today is Ted William's Birthday",
+ "policiesInHousehold": {
+ "title": "Policies in Household",
+ "value": 3
+ },
+ "policy": {
+ "id": 7,
+ "policyId": "",
+ "type": {
+ "code": "",
+ "id": 1,
+ "subTitle": "",
+ "title": "Auto"
+ }
+ },
+ "policyPremium": {
+ "title": "Policy Premium",
+ "value": "$1,590.00"
+ },
+ "rank": 1,
+ "salesRecommendation": {
+ "detail": "Client is growing older and may be interested in discussing Life policies",
+ "title": "Life Insurance Sales Opportunity"
+ },
+ "time": "11:30 PM",
+ "type": {
+ "code": "0501",
+ "id": 1,
+ "subTitle": "Birthday",
+ "title": "Life Event"
+ },
+ "yearsAsClient": {
+ "title": "Years as Client",
+ "value": 1
+ }
+ }
+  ]

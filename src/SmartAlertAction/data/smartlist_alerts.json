@@ -1,0 +1,506 @@
+ [
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Bundle Universal Life payment with Auto payment to reduce future lapse risks",
+  "title": "Negotiate Monthly Payment Plan"
+  },
+  "client": {
+  "displayName": "Jill Sherman",
+  "fName": "Jill",
+  "id": 7,
+  "lName": "Sherman"
+  },
+  "date": "2014-09-05",
+  "id": 0,
+  "isCompleted": false,
+  "message": "Client missed monthly premium of $56.00 due 7/31/14. Policy lapse date 8/31/14",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,512.00"
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of adding a permanent policy",
+  "title": "Life Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "policyType": "Universal Life",
+  "subTitle": "Unpaid Premium",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 3
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Suggest auto-pay registration for Monthly Payment Plan to reduce further lapse risks",
+  "title": "Discuss auto-pay registration"
+  },
+  "client": {
+  "displayName": "Paul Castro",
+  "fName": "Paul",
+  "id": 10,
+  "lName": "Castro"
+  },
+  "date": "2014-09-05",
+  "id": 1,
+  "isCompleted": false,
+  "message": "Client missed monthly premium of $132.50 due 7/31/14. Policy lapse date 8/31/14",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,590.00"
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Household recently purchased their first home and does not have a homeowners policy",
+  "title": "Homeowners Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "policyType": "Monthly Payment Plan",
+  "subTitle": "Unpaid Premium",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Bundle Universal Life payment with Auto payment to reduce future lapse risks",
+  "title": "Renew policy before end of grace period"
+  },
+  "client": {
+  "displayName": "Joe Cotant",
+  "fName": "Joe",
+  "id": 1,
+  "lName": "Cotant"
+  },
+  "date": "2014-09-05",
+  "id": 2,
+  "isCompleted": false,
+  "message": "Client's policy lapsed on 7/31/14. Policy was set to renew on 7/24/14",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,804.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Household has 2 private passenger vehicles and no auto policies (5 discounts available)",
+  "title": "Auto Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "policyType": "Term Life",
+  "subTitle": "Policy Lapse",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 3
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Bundle Homeowners and Personal Liability Umbrella, and suggest auto-pay registration to reduce lapse risks",
+  "title": "Negotiate Monthly Payment Plan"
+  },
+  "client": {
+  "displayName": "Jenny Muller",
+  "fName": "Jenny",
+  "id": 0,
+  "lName": "Muller"
+  },
+  "date": "2014-09-05",
+  "id": 3,
+  "isCompleted": false,
+  "message": "Client's policy is at risk of policy lapse on 8/05/14. Amount past due is $1,630.00",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,870.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of adding a permanent policy",
+  "title": "Life Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 1,
+  "policyType": "Homeowners",
+  "subTitle": "Policy Lapse",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 9
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Remind client of renewal opportunity available until 8/31/2014",
+  "title": "Discuss surrender and renewal"
+  },
+  "client": {
+  "displayName": "Paul Castro",
+  "fName": "Paul",
+  "id": 10,
+  "lName": "Castro"
+  },
+  "date": "2014-09-05",
+  "id": 4,
+  "isCompleted": true,
+  "message": "Insurance Company has sent notice that client would like to surrender 2011 Ford F150 XLT Private Passenger Policy",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$970.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of continuing to hold multiple products with the same Agency",
+  "title": "Additional Life Insurance Discount"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0101",
+  "id": 5,
+  "policyType": "Private Passenger",
+  "subTitle": "Surrender Notice",
+  "title": "Retention"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 4
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note their current products with other insurers. Find a convenient time for them to complete the quoting process",
+  "title": "Discuss prospect's interests and needs"
+  },
+  "client": {
+  "displayName": "Wendy Yang",
+  "fName": "Wendy",
+  "id": 10,
+  "lName": "Yang"
+  },
+  "date": "2014-09-05",
+  "id": 6,
+  "isCompleted": false,
+  "message": "Life lead from bestlifequote.com. New quote abandoned by prospect",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 0
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$0"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the potential savings of up to $500 by signing up for Life Insurance",
+  "title": "Contact prospect to complete quoting process"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0201",
+  "id": 1,
+  "policyType": "Life",
+  "subTitle": "Quote Abandoned",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note their current products with other insurers. Find a convenient time for them to complete the quoting process and discuss their question",
+  "title": "Discuss prospect's interests and needs"
+  },
+  "client": {
+  "displayName": "Chris Scott",
+  "fName": "Chris",
+  "id": 10,
+  "lName": "Scott"
+  },
+  "date": "2014-09-05",
+  "id": 7,
+  "isCompleted": true,
+  "message": "Fire lead from call center. General question from prospect",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 0
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": ""
+  },
+  "rank": 2,
+  "salesRecommendation": {
+  "detail": "Discuss the potential savings of up to $300 by signing up for Fire Insurance",
+  "title": "Contact prospect to address question and complete quoting process"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0201",
+  "id": 1,
+  "policyType": "Fire",
+  "subTitle": "General Question",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 0
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Share quote with the client during the next conversation about their policies and future plans",
+  "title": "Quote Personal Article policy"
+  },
+  "client": {
+  "displayName": "Rob Dorn",
+  "fName": "Rob",
+  "id": 9,
+  "lName": "Dorn"
+  },
+  "date": "2014-09-05",
+  "id": 8,
+  "isCompleted": false,
+  "message": "Client has high propensity to buy Personal Article Insurance",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,350.00"
+  },
+  "rank": 3,
+  "salesRecommendation": {
+  "detail": "Discuss the benefits of adding a Personal Articles Policy",
+  "title": "Fire Insurance Sale Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0201",
+  "id": 1,
+  "policyType": "Personal Article",
+  "subTitle": "New Product",
+  "title": "Leads"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 7
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Discuss negative impact on premium due to frequency of claims ",
+  "title": "Advise client on claim"
+  },
+  "client": {
+  "displayName": "Helena Liu",
+  "fName": "Helena",
+  "id": 10,
+  "lName": "Liu"
+  },
+  "date": "2014-09-05",
+  "id": 9,
+  "isCompleted": false,
+  "message": "Client submitted Auto Claim",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$6,000.00"
+  },
+  "rank": 2,
+  "salesRecommendation": {
+  "detail": "Follow up according to sequential claim processing procedure",
+  "title": "Sequential Claim Processing"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0301",
+  "id": 1,
+  "policyType": "Personal Article",
+  "subTitle": "Claim Submitted",
+  "title": "Claims"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 19
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Collect missing signature from client and submit for processing",
+  "title": "Request missing information"
+  },
+  "client": {
+  "displayName": "Brian Fisk",
+  "fName": "Brian",
+  "id": 9,
+  "lName": "Fisk"
+  },
+  "date": "2014-09-05",
+  "id": 10,
+  "isCompleted": false,
+  "message": "Application is incomplete. Client is missing signature on Auto Application",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 1
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,200.00"
+  },
+  "rank": 5,
+  "salesRecommendation": {
+  "detail": "Discuss potential savings of up to $300 by signing up for additional policy riders",
+  "title": "Discuss possible additional discounts"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0401",
+  "id": 1,
+  "policyType": "Auto",
+  "subTitle": "Missing Information",
+  "title": "Pending Business"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "Note the client’s current products and find a convenient time for them to complete the quoting process",
+  "title": "Discuss interests and needs of client"
+  },
+  "client": {
+  "displayName": "Jenny Muller",
+  "fName": "Jenny",
+  "id": 0,
+  "lName": "Muller"
+  },
+  "date": "2014-09-05",
+  "id": 11,
+  "isCompleted": false,
+  "message": "Question from Client regarding Auto Quote forwarded from call center",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 2
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,870.00"
+  },
+  "rank": 4,
+  "salesRecommendation": {
+  "detail": "Client is interested in purchasing an auto policy (3 discounts available)",
+  "title": "Auto Insurance Sales Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0401",
+  "id": 1,
+  "policyType": "Auto",
+  "subTitle": "General Question",
+  "title": "Pending Business"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 9
+  }
+  },
+  {
+  "actions": [],
+  "alertRecommendation": {
+  "detail": "",
+  "title": "Wish client a happy 42nd Birthday"
+  },
+  "client": {
+  "displayName": "Paul Castro",
+  "fName": "Paul",
+  "id": 10,
+  "lName": "Castro"
+  },
+  "date": "2014-09-05",
+  "id": 12,
+  "isCompleted": false,
+  "message": "Today is Paul Castro's Birthday",
+  "policiesInHousehold": {
+  "title": "Policies in Household",
+  "value": 3
+  },
+  "policyPremium": {
+  "title": "Annualized Premium",
+  "value": "$1,590.00"
+  },
+  "rank": 1,
+  "salesRecommendation": {
+  "detail": "Client is growing older and may be interested in discussing Life policies",
+  "title": "Life Insurance Sales Opportunity"
+  },
+  "time": "11:30 PM",
+  "type": {
+  "code": "0501",
+  "id": 1,
+  "policyType": "",
+  "subTitle": "Birthday",
+  "title": "Life Events"
+  },
+  "yearsAsClient": {
+  "title": "Years as Client",
+  "value": 1
+  }
+  }
+    ]

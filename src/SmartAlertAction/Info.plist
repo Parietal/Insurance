@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIEndpoints</key>
+	<dict>
+		<key>apimDev</key>
+		<dict>
+			<key>baseUrl</key>
+			<string>https://api.apim.ibmcloud.com/mobilefirstios/insurance-dev1/insurance/smart-alert-dev</string>
+			<key>clientId</key>
+			<string>0b9df532-9074-4a66-8ae8-5325f311ca48</string>
+		</dict>
+		<key>apimProd</key>
+		<dict>
+			<key>baseUrl</key>
+			<string>https://api.apim.ibmcloud.com/mobilefirstios/insurance-prod/insurance/smart-alert</string>
+			<key>clientId</key>
+			<string>dfbdc428-b12f-4d9c-8439-c8e16a01db0c</string>
+		</dict>
+		<key>apimTest</key>
+		<dict>
+			<key>baseUrl</key>
+			<string>https://api.apim.ibmcloud.com/mobilefirstios/insurance-test1/insurance/smart-alert-test</string>
+			<key>clientId</key>
+			<string>f8f5244e-86ce-4dbe-85ec-1803befa3d4b</string>
+		</dict>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Retention</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ibm.mobilefirst.insurance.smartalert</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Yes</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>Yes</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Login</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>

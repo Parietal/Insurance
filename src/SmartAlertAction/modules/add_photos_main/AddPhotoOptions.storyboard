@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TTt-uy-Wno">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Add Photo Options View Controller-->
+        <scene sceneID="snX-Vh-F1X">
+            <objects>
+                <viewController storyboardIdentifier="AddPhotoOptionsVC" id="BBK-Dd-DIe" customClass="AddPhotoOptionsViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I4e-gB-lM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="LBI-RF-8hx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pv8-Ge-N6p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXr-eO-YBa">
+                                <rect key="frame" x="0.0" y="140" width="600" height="460"/>
+                                <connections>
+                                    <segue destination="4Go-9K-gei" kind="embed" identifier="addOptionsTable" id="IPw-2l-UnD"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Tt-Mh-Ydz">
+                                <rect key="frame" x="10" y="30" width="580" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="2II-YA-vS1"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="M8d-uF-89O" kind="embed" identifier="addOptionsCollection" id="g3i-pl-Ute"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cXr-eO-YBa" firstAttribute="top" secondItem="3Tt-Mh-Ydz" secondAttribute="bottom" constant="5" id="Fxh-B3-ALv"/>
+                            <constraint firstItem="LBI-RF-8hx" firstAttribute="top" secondItem="cXr-eO-YBa" secondAttribute="bottom" id="GgN-CP-lCS"/>
+                            <constraint firstItem="cXr-eO-YBa" firstAttribute="leading" secondItem="pv8-Ge-N6p" secondAttribute="leading" id="Wrf-Z5-VOx"/>
+                            <constraint firstItem="3Tt-Mh-Ydz" firstAttribute="top" secondItem="I4e-gB-lM6" secondAttribute="bottom" constant="5" id="a3D-mm-rM5"/>
+                            <constraint firstAttribute="trailing" secondItem="3Tt-Mh-Ydz" secondAttribute="trailing" constant="5" id="h2z-uL-5Xp"/>
+                            <constraint firstAttribute="trailing" secondItem="cXr-eO-YBa" secondAttribute="trailing" id="mvi-oR-JD7"/>
+                            <constraint firstItem="3Tt-Mh-Ydz" firstAttribute="leading" secondItem="pv8-Ge-N6p" secondAttribute="leading" constant="5" id="ser-CZ-Ltb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Pdb-i1-ys5"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="300" height="155"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TuH-9W-h9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2221" y="109"/>
+        </scene>
+        <!--Add Photo Options Collection View Controller-->
+        <scene sceneID="lMi-ub-mdw">
+            <objects>
+                <collectionViewController id="M8d-uF-89O" customClass="AddPhotoOptionsCollectionViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Nm1-tz-PQk">
+                        <rect key="frame" x="0.0" y="0.0" width="580" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cx2-lk-zJh">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="66J-qv-LYg" customClass="PhotosCollectionViewThumb" customModule="SmartAlertAction" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sWt-Tp-W4K">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pth-dF-sDt">
+                                            <rect key="frame" x="5" y="85" width="20" height="10"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="Ro7-4W-n5v"/>
+                                                <constraint firstAttribute="height" constant="10" id="enD-cf-288"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyx-nR-OTP">
+                                            <rect key="frame" x="103" y="74.5" width="42" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Pth-dF-sDt" firstAttribute="leading" secondItem="66J-qv-LYg" secondAttribute="leading" constant="5" id="9FD-6a-gik"/>
+                                    <constraint firstItem="sWt-Tp-W4K" firstAttribute="top" secondItem="66J-qv-LYg" secondAttribute="top" id="EtQ-nB-dQZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="sWt-Tp-W4K" secondAttribute="bottom" id="Jir-m5-xu4"/>
+                                    <constraint firstItem="sWt-Tp-W4K" firstAttribute="leading" secondItem="66J-qv-LYg" secondAttribute="leading" id="MYy-CZ-9sJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="hyx-nR-OTP" secondAttribute="bottom" constant="5" id="W1x-Jz-wDW"/>
+                                    <constraint firstAttribute="trailing" secondItem="hyx-nR-OTP" secondAttribute="trailing" constant="5" id="Ysb-3i-9aC"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pth-dF-sDt" secondAttribute="bottom" constant="5" id="cO2-Ja-5WZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="sWt-Tp-W4K" secondAttribute="trailing" id="pnE-gG-yZd"/>
+                                </constraints>
+                                <size key="customSize" width="150" height="100"/>
+                                <connections>
+                                    <outlet property="thumbIcon" destination="Pth-dF-sDt" id="9GA-RI-ATN"/>
+                                    <outlet property="thumbImage" destination="sWt-Tp-W4K" id="vmz-tt-wHF"/>
+                                    <outlet property="thumbLabel" destination="hyx-nR-OTP" id="DCB-wR-99Y"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="M8d-uF-89O" id="nc7-YX-rno"/>
+                            <outlet property="delegate" destination="M8d-uF-89O" id="WGk-By-yX4"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaB-Hr-9fT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2934" y="-141"/>
+        </scene>
+        <!--Add Photo Options Table View Controller-->
+        <scene sceneID="7Vd-mT-nsa">
+            <objects>
+                <tableViewController id="4Go-9K-gei" customClass="AddPhotoOptionsTableViewController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="QMb-Ds-uKB" customClass="AddPhotoOptionsTableView" customModule="SmartAlertAction" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="Zf1-vm-YZQ">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DFh-i7-zsZ" customClass="AddPhotoOptionCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DFh-i7-zsZ" id="1Ex-jb-Q07">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleLabel" value="Photo Library"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EOc-wF-xvJ" customClass="AddPhotoOptionCell" customModule="SmartAlertAction" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EOc-wF-xvJ" id="KfZ-Ce-oEz">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titleLabel" value="Take Photo or Video"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="lastRow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4Go-9K-gei" id="8er-sM-fpm"/>
+                            <outlet property="delegate" destination="4Go-9K-gei" id="Wbh-Nc-LpQ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdh-qs-ZBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2934" y="476"/>
+        </scene>
+        <!--Add Photo Options Nav Controller-->
+        <scene sceneID="aZd-vw-vcV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TTt-uy-Wno" customClass="AddPhotoOptionsNavController" customModule="SmartAlertAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O4T-k4-VF7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BBK-Dd-DIe" kind="relationship" relationship="rootViewController" id="ace-cl-v4q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqp-9u-8d3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="109"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,21 @@
+/* Class = "IBUIButton"; normalTitle = "Remember user name"; ObjectID = "5TL-qf-Kux"; */
+"5TL-qf-Kux.normalTitle" = "es Remember user name";
+
+/* Class = "IBUILabel"; text = "v0.0"; ObjectID = "6vH-H8-Fne"; */
+"6vH-H8-Fne.text" = "v0.0";
+
+/* Class = "IBUIButton"; normalTitle = "Sign In"; ObjectID = "J9C-ag-XPc"; */
+"J9C-ag-XPc.normalTitle" = "es Sign In";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "L3t-Vw-xIT"; */
+"L3t-Vw-xIT.placeholder" = "es Password";
+
+/* Class = "IBUIButton"; normalTitle = "Forgot password?"; ObjectID = "Q8O-eW-F2e"; */
+"Q8O-eW-F2e.normalTitle" = "es Forgot password?";
+
+/* Class = "IBUILabel"; text = "App Name"; ObjectID = "RwK-uO-9uc"; */
+"RwK-uO-9uc.text" = "App Name";
+
+/* Class = "IBUITextField"; placeholder = "User name"; ObjectID = "sl7-2b-Q84"; */
+"sl7-2b-Q84.placeholder" = "es User name";
+

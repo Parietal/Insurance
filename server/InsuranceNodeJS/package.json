@@ -1,0 +1,15 @@
+{
+	"name": "IndustrialNodeJS",
+	"version": "0.0.1",
+	"description": "A nodejs app for Bluemix insurance",
+	"dependencies": {
+		"express": "3.4.7",
+		"mongodb": "1.4",
+		"nodemailer": "^0.6.1",
+		"jade": "1.1.4"
+	},
+	"engines": {
+		"node": "0.10.26"
+	},
+	"repository": {}
+}
