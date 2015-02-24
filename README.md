@@ -13,6 +13,6 @@ making your code available. A good resource for open source licenses is the
 Be sure to update your project's profile with a short description and 
 eye-catching graphic.
 
-Finally, consider defining a timeline and work items on the "Current Work" tab 
+//Line adding from Master branch. Finally, consider defining a timeline and work items on the "Current Work" tab 
 to give interested developers a sense of your cadence and upcoming enhancements.
 
